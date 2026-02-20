@@ -1,0 +1,1001 @@
+patient_id,age,gender,department,diagnosis,length_of_stay,num_medications,num_procedures,admission_type,discharge_disposition,readmitted
+P0001,71,Female,Orthopedics,Fracture,13,11,4,Planned,Rehab,Yes
+P0002,40,Male,General Medicine,Infection,7,10,2,Planned,Home,No
+P0003,43,Female,Cardiology,Heart Failure,3,6,4,Planned,Home,No
+P0004,21,Male,Cardiology,Hypertension,8,6,1,Planned,Home,Yes
+P0005,83,Female,Neurology,Stroke,12,5,0,Planned,Home,Yes
+P0006,77,Male,General Medicine,Diabetes,6,9,0,Emergency,Rehab,Yes
+P0007,78,Male,General Medicine,Infection,10,3,3,Emergency,Home,Yes
+P0008,74,Female,Orthopedics,Fracture,4,9,2,Planned,Rehab,Yes
+P0009,70,Female,Cardiology,Hypertension,7,5,0,Planned,Home,No
+P0010,58,Female,Cardiology,Hypertension,2,4,0,Emergency,Home,No
+P0011,79,Male,Neurology,Migraine,14,2,1,Planned,Home,No
+P0012,28,Female,General Medicine,Infection,10,5,1,Planned,Rehab,No
+P0013,79,Female,Geriatrics,Dementia,7,8,2,Emergency,Rehab,Yes
+P0014,55,Male,Geriatrics,Stroke,2,8,3,Planned,Home,No
+P0015,21,Female,Orthopedics,Fracture,14,6,1,Emergency,Rehab,No
+P0016,23,Male,General Medicine,Infection,6,2,1,Planned,Rehab,Yes
+P0017,63,Female,Geriatrics,Dementia,2,10,3,Emergency,Rehab,No
+P0018,33,Female,Geriatrics,Dementia,8,7,3,Planned,Home,No
+P0019,81,Male,Orthopedics,Fracture,8,5,4,Emergency,Rehab,Yes
+P0020,72,Male,Cardiology,Heart Failure,8,10,0,Emergency,Rehab,Yes
+P0021,79,Female,General Medicine,Infection,12,9,4,Planned,Rehab,Yes
+P0022,34,Male,Orthopedics,Fracture,13,1,0,Planned,Rehab,Yes
+P0023,28,Female,Cardiology,Heart Failure,8,1,3,Emergency,Home,Yes
+P0024,27,Female,Neurology,Stroke,8,11,2,Emergency,Rehab,No
+P0025,27,Male,Neurology,Stroke,3,3,0,Planned,Home,No
+P0026,24,Male,Geriatrics,Dementia,10,7,1,Planned,Home,No
+P0027,60,Female,Neurology,Stroke,12,7,0,Planned,Home,No
+P0028,31,Male,Geriatrics,Stroke,2,1,4,Emergency,Rehab,No
+P0029,63,Male,Neurology,Migraine,8,6,2,Planned,Home,No
+P0030,54,Male,Cardiology,Hypertension,1,3,4,Planned,Home,No
+P0031,66,Male,General Medicine,Infection,14,3,0,Emergency,Rehab,Yes
+P0032,24,Female,Neurology,Migraine,10,7,2,Planned,Rehab,No
+P0033,28,Male,General Medicine,Diabetes,10,10,3,Planned,Rehab,Yes
+P0034,70,Male,Orthopedics,Fracture,7,1,3,Emergency,Home,No
+P0035,23,Female,Cardiology,Heart Failure,14,5,4,Planned,Rehab,No
+P0036,34,Male,Cardiology,Heart Failure,11,4,4,Planned,Rehab,No
+P0037,51,Male,Cardiology,Heart Failure,7,11,2,Planned,Rehab,Yes
+P0038,47,Female,Neurology,Migraine,2,10,4,Planned,Home,Yes
+P0039,81,Female,Orthopedics,Fracture,9,5,3,Planned,Rehab,Yes
+P0040,47,Female,General Medicine,Infection,12,4,2,Planned,Rehab,Yes
+P0041,81,Male,Geriatrics,Stroke,1,1,0,Emergency,Home,No
+P0042,46,Female,Neurology,Stroke,14,9,3,Planned,Rehab,Yes
+P0043,22,Female,General Medicine,Diabetes,7,6,2,Emergency,Home,No
+P0044,28,Female,Cardiology,Heart Failure,14,5,0,Emergency,Rehab,No
+P0045,70,Female,Geriatrics,Dementia,10,8,2,Emergency,Rehab,Yes
+P0046,51,Female,Neurology,Stroke,8,9,3,Emergency,Rehab,Yes
+P0047,81,Male,General Medicine,Infection,1,10,3,Emergency,Rehab,No
+P0048,31,Male,Neurology,Stroke,14,7,1,Planned,Rehab,No
+P0049,22,Female,Neurology,Migraine,1,5,0,Planned,Rehab,No
+P0050,75,Male,Cardiology,Hypertension,1,11,0,Emergency,Rehab,No
+P0051,21,Male,General Medicine,Diabetes,2,6,4,Emergency,Rehab,No
+P0052,20,Male,General Medicine,Diabetes,3,2,4,Emergency,Home,No
+P0053,63,Male,Neurology,Migraine,10,6,3,Emergency,Rehab,No
+P0054,74,Male,Neurology,Stroke,11,8,2,Planned,Home,Yes
+P0055,36,Female,Orthopedics,Fracture,6,8,4,Emergency,Home,No
+P0056,89,Male,Neurology,Stroke,6,11,0,Emergency,Home,Yes
+P0057,78,Male,Neurology,Stroke,6,3,3,Planned,Rehab,No
+P0058,78,Female,Geriatrics,Dementia,4,3,1,Emergency,Rehab,Yes
+P0059,86,Male,Geriatrics,Stroke,3,4,3,Emergency,Home,No
+P0060,52,Male,General Medicine,Infection,8,7,1,Emergency,Home,No
+P0061,20,Male,Orthopedics,Fracture,11,9,0,Planned,Rehab,Yes
+P0062,69,Female,General Medicine,Diabetes,7,10,2,Emergency,Home,No
+P0063,26,Female,Cardiology,Hypertension,12,10,0,Emergency,Rehab,Yes
+P0064,79,Female,Neurology,Stroke,1,2,0,Emergency,Rehab,Yes
+P0065,67,Female,Geriatrics,Stroke,14,5,4,Planned,Rehab,No
+P0066,51,Male,Neurology,Stroke,11,7,0,Emergency,Rehab,No
+P0067,38,Female,Neurology,Migraine,3,4,0,Planned,Rehab,No
+P0068,43,Female,Cardiology,Heart Failure,4,11,0,Emergency,Home,No
+P0069,55,Male,Cardiology,Heart Failure,6,8,3,Planned,Rehab,Yes
+P0070,44,Female,Cardiology,Hypertension,13,2,1,Emergency,Rehab,Yes
+P0071,85,Male,Cardiology,Heart Failure,6,3,4,Emergency,Rehab,Yes
+P0072,60,Male,Geriatrics,Stroke,4,1,3,Planned,Rehab,No
+P0073,52,Male,Neurology,Stroke,14,5,3,Planned,Rehab,No
+P0074,27,Male,Neurology,Migraine,7,3,0,Emergency,Rehab,No
+P0075,52,Female,Orthopedics,Fracture,12,11,2,Emergency,Home,Yes
+P0076,41,Male,Geriatrics,Stroke,14,6,4,Emergency,Rehab,No
+P0077,70,Female,Cardiology,Heart Failure,6,8,2,Planned,Rehab,Yes
+P0078,46,Female,General Medicine,Diabetes,2,5,0,Planned,Home,No
+P0079,47,Male,Cardiology,Heart Failure,1,5,3,Planned,Home,No
+P0080,80,Female,Neurology,Migraine,3,4,2,Emergency,Rehab,Yes
+P0081,83,Male,Neurology,Migraine,1,1,3,Emergency,Rehab,Yes
+P0082,49,Male,Neurology,Migraine,13,5,2,Emergency,Rehab,No
+P0083,56,Female,Orthopedics,Fracture,8,1,4,Emergency,Rehab,No
+P0084,79,Female,Geriatrics,Stroke,1,4,4,Planned,Home,No
+P0085,51,Male,Neurology,Stroke,7,1,2,Planned,Home,No
+P0086,37,Female,Neurology,Migraine,9,10,1,Emergency,Home,No
+P0087,86,Female,Cardiology,Heart Failure,8,8,1,Planned,Rehab,Yes
+P0088,51,Male,Orthopedics,Fracture,6,7,1,Emergency,Rehab,Yes
+P0089,46,Female,Geriatrics,Stroke,10,2,1,Emergency,Home,No
+P0090,36,Male,Orthopedics,Fracture,8,1,0,Emergency,Rehab,No
+P0091,62,Male,Orthopedics,Fracture,6,7,4,Emergency,Rehab,No
+P0092,61,Male,Geriatrics,Dementia,7,10,2,Emergency,Home,Yes
+P0093,69,Female,Geriatrics,Stroke,9,8,4,Planned,Rehab,Yes
+P0094,79,Female,Orthopedics,Fracture,10,7,0,Emergency,Home,No
+P0095,55,Female,Geriatrics,Dementia,13,4,0,Planned,Home,No
+P0096,27,Female,Cardiology,Hypertension,14,3,3,Planned,Home,Yes
+P0097,85,Female,Geriatrics,Stroke,7,6,2,Emergency,Rehab,No
+P0098,44,Female,Geriatrics,Stroke,10,6,1,Emergency,Home,No
+P0099,77,Female,General Medicine,Diabetes,6,1,3,Planned,Rehab,No
+P0100,61,Female,Geriatrics,Dementia,6,6,2,Emergency,Home,Yes
+P0101,79,Female,General Medicine,Infection,5,1,4,Planned,Home,No
+P0102,79,Male,Orthopedics,Fracture,12,5,3,Planned,Rehab,Yes
+P0103,25,Female,Geriatrics,Dementia,13,4,2,Planned,Rehab,No
+P0104,74,Female,Neurology,Migraine,8,4,4,Emergency,Home,No
+P0105,49,Female,Neurology,Stroke,3,1,2,Emergency,Home,No
+P0106,77,Male,Neurology,Stroke,7,10,4,Planned,Rehab,Yes
+P0107,81,Male,General Medicine,Diabetes,7,9,3,Emergency,Rehab,No
+P0108,20,Female,Neurology,Migraine,10,10,0,Emergency,Home,Yes
+P0109,53,Male,Neurology,Migraine,14,6,0,Emergency,Home,Yes
+P0110,20,Female,General Medicine,Diabetes,13,7,4,Emergency,Home,Yes
+P0111,41,Female,Geriatrics,Stroke,13,7,2,Planned,Rehab,No
+P0112,45,Female,Neurology,Migraine,3,5,0,Planned,Rehab,No
+P0113,48,Male,General Medicine,Infection,14,5,0,Planned,Home,No
+P0114,81,Female,Geriatrics,Stroke,4,5,3,Planned,Home,Yes
+P0115,35,Female,Geriatrics,Dementia,10,10,4,Emergency,Rehab,No
+P0116,58,Male,Cardiology,Hypertension,4,1,4,Planned,Rehab,No
+P0117,42,Male,Orthopedics,Fracture,10,10,4,Planned,Home,Yes
+P0118,53,Female,Cardiology,Hypertension,4,10,1,Emergency,Rehab,No
+P0119,38,Female,Orthopedics,Fracture,10,1,4,Planned,Home,No
+P0120,23,Male,Neurology,Stroke,8,7,1,Emergency,Rehab,Yes
+P0121,51,Female,General Medicine,Infection,11,4,3,Emergency,Rehab,No
+P0122,69,Male,Geriatrics,Stroke,3,1,0,Planned,Home,No
+P0123,80,Male,General Medicine,Diabetes,3,11,4,Planned,Home,Yes
+P0124,31,Male,Orthopedics,Fracture,3,1,0,Emergency,Rehab,No
+P0125,59,Male,Neurology,Stroke,10,11,3,Planned,Rehab,No
+P0126,48,Female,Orthopedics,Fracture,13,2,4,Planned,Home,Yes
+P0127,54,Male,Orthopedics,Fracture,7,1,1,Planned,Rehab,No
+P0128,27,Female,Neurology,Stroke,13,10,1,Planned,Home,Yes
+P0129,53,Male,Cardiology,Hypertension,3,9,3,Planned,Rehab,No
+P0130,77,Female,Geriatrics,Stroke,5,2,4,Emergency,Rehab,No
+P0131,48,Female,Geriatrics,Stroke,8,4,0,Emergency,Rehab,No
+P0132,40,Male,Orthopedics,Fracture,13,9,3,Planned,Rehab,Yes
+P0133,29,Male,Orthopedics,Fracture,5,9,2,Emergency,Rehab,No
+P0134,68,Female,General Medicine,Diabetes,3,4,1,Planned,Rehab,Yes
+P0135,43,Female,Orthopedics,Fracture,7,5,3,Planned,Home,No
+P0136,74,Male,Orthopedics,Fracture,13,7,0,Emergency,Home,Yes
+P0137,49,Female,Geriatrics,Stroke,1,1,3,Emergency,Home,No
+P0138,32,Male,Orthopedics,Fracture,11,3,0,Planned,Rehab,No
+P0139,31,Female,Neurology,Stroke,13,9,2,Emergency,Home,No
+P0140,28,Female,General Medicine,Infection,7,4,2,Planned,Rehab,Yes
+P0141,35,Male,Geriatrics,Stroke,5,5,2,Emergency,Home,No
+P0142,31,Male,Neurology,Migraine,9,4,2,Emergency,Home,No
+P0143,72,Female,Neurology,Stroke,7,9,4,Planned,Home,Yes
+P0144,72,Female,Geriatrics,Stroke,10,10,1,Emergency,Rehab,Yes
+P0145,24,Male,Orthopedics,Fracture,3,7,4,Planned,Rehab,No
+P0146,37,Male,General Medicine,Diabetes,12,9,1,Planned,Rehab,No
+P0147,77,Male,Neurology,Stroke,12,1,4,Planned,Home,No
+P0148,26,Male,Orthopedics,Fracture,14,8,1,Planned,Rehab,No
+P0149,28,Female,General Medicine,Infection,2,11,1,Emergency,Rehab,Yes
+P0150,85,Male,General Medicine,Diabetes,5,5,2,Planned,Home,No
+P0151,27,Female,Cardiology,Hypertension,13,1,3,Planned,Rehab,Yes
+P0152,36,Female,Geriatrics,Dementia,7,9,4,Emergency,Home,Yes
+P0153,23,Male,Geriatrics,Stroke,4,6,3,Planned,Home,No
+P0154,50,Male,Neurology,Stroke,3,6,2,Planned,Rehab,No
+P0155,38,Female,Geriatrics,Dementia,7,3,4,Planned,Home,No
+P0156,32,Female,Orthopedics,Fracture,2,10,3,Emergency,Rehab,No
+P0157,80,Female,Neurology,Stroke,9,7,0,Planned,Home,Yes
+P0158,22,Male,Orthopedics,Fracture,13,9,3,Planned,Home,Yes
+P0159,44,Male,Neurology,Migraine,8,1,4,Emergency,Home,Yes
+P0160,25,Female,Cardiology,Hypertension,10,5,4,Planned,Rehab,No
+P0161,55,Male,Neurology,Stroke,3,3,3,Planned,Rehab,No
+P0162,76,Female,Neurology,Stroke,2,9,0,Emergency,Rehab,No
+P0163,33,Male,Cardiology,Heart Failure,1,5,2,Emergency,Rehab,No
+P0164,35,Male,General Medicine,Infection,7,9,2,Emergency,Rehab,No
+P0165,31,Male,Orthopedics,Fracture,10,8,3,Planned,Rehab,Yes
+P0166,43,Male,General Medicine,Diabetes,12,5,1,Emergency,Rehab,No
+P0167,55,Male,Neurology,Migraine,10,8,1,Planned,Home,No
+P0168,79,Female,Orthopedics,Fracture,2,5,0,Emergency,Rehab,No
+P0169,83,Male,Neurology,Stroke,11,6,0,Planned,Rehab,Yes
+P0170,52,Male,Cardiology,Heart Failure,5,4,4,Emergency,Rehab,No
+P0171,48,Female,Geriatrics,Dementia,13,3,4,Planned,Home,Yes
+P0172,25,Female,Cardiology,Hypertension,2,3,4,Planned,Rehab,No
+P0173,66,Female,General Medicine,Diabetes,9,2,1,Planned,Rehab,No
+P0174,75,Male,Cardiology,Heart Failure,14,2,2,Planned,Home,No
+P0175,24,Male,Geriatrics,Dementia,7,8,0,Emergency,Rehab,Yes
+P0176,84,Male,Neurology,Migraine,2,1,2,Emergency,Home,Yes
+P0177,45,Female,Orthopedics,Fracture,9,6,2,Emergency,Rehab,No
+P0178,46,Female,Geriatrics,Stroke,1,1,1,Emergency,Home,No
+P0179,20,Male,Cardiology,Hypertension,5,7,3,Emergency,Home,No
+P0180,88,Female,Orthopedics,Fracture,5,6,2,Emergency,Home,No
+P0181,72,Male,Orthopedics,Fracture,7,5,4,Planned,Home,No
+P0182,56,Male,Neurology,Migraine,10,10,2,Emergency,Home,Yes
+P0183,36,Female,Geriatrics,Stroke,5,9,0,Emergency,Home,No
+P0184,70,Female,Geriatrics,Dementia,13,4,0,Emergency,Home,No
+P0185,51,Female,Orthopedics,Fracture,2,8,1,Planned,Rehab,No
+P0186,53,Male,Orthopedics,Fracture,6,6,2,Planned,Rehab,No
+P0187,69,Female,Cardiology,Heart Failure,12,1,3,Emergency,Rehab,Yes
+P0188,24,Female,Cardiology,Hypertension,14,11,0,Emergency,Home,No
+P0189,36,Female,General Medicine,Infection,7,5,4,Emergency,Home,Yes
+P0190,33,Male,Orthopedics,Fracture,2,11,2,Planned,Home,No
+P0191,57,Male,Cardiology,Heart Failure,12,2,1,Planned,Home,No
+P0192,49,Female,Neurology,Migraine,11,3,1,Planned,Rehab,No
+P0193,71,Male,Cardiology,Heart Failure,9,6,0,Emergency,Rehab,Yes
+P0194,49,Male,Cardiology,Heart Failure,7,10,2,Emergency,Home,No
+P0195,24,Male,General Medicine,Diabetes,13,4,1,Planned,Home,No
+P0196,75,Male,Geriatrics,Dementia,1,10,0,Emergency,Home,No
+P0197,88,Female,General Medicine,Diabetes,2,6,4,Planned,Rehab,No
+P0198,85,Male,Cardiology,Heart Failure,13,11,2,Planned,Rehab,Yes
+P0199,42,Male,Cardiology,Heart Failure,7,11,3,Planned,Home,Yes
+P0200,23,Male,Geriatrics,Dementia,8,9,2,Emergency,Rehab,No
+P0201,86,Male,Neurology,Migraine,11,2,4,Planned,Rehab,Yes
+P0202,70,Male,Geriatrics,Stroke,3,5,4,Planned,Rehab,Yes
+P0203,61,Male,Cardiology,Heart Failure,13,6,4,Planned,Home,No
+P0204,89,Female,Orthopedics,Fracture,1,5,0,Emergency,Home,No
+P0205,31,Male,Orthopedics,Fracture,10,2,0,Emergency,Rehab,No
+P0206,64,Male,Geriatrics,Stroke,11,9,1,Planned,Home,Yes
+P0207,66,Female,Cardiology,Heart Failure,9,6,2,Emergency,Home,No
+P0208,82,Male,General Medicine,Diabetes,13,1,1,Emergency,Home,Yes
+P0209,55,Female,Geriatrics,Dementia,1,8,0,Planned,Home,No
+P0210,71,Male,Cardiology,Hypertension,8,6,1,Planned,Rehab,No
+P0211,47,Female,Neurology,Stroke,7,8,1,Emergency,Rehab,No
+P0212,45,Female,Geriatrics,Stroke,14,11,2,Emergency,Rehab,No
+P0213,26,Female,General Medicine,Infection,3,7,2,Planned,Rehab,No
+P0214,37,Female,Neurology,Stroke,10,6,2,Emergency,Rehab,No
+P0215,34,Female,General Medicine,Infection,9,7,4,Emergency,Rehab,Yes
+P0216,47,Male,Orthopedics,Fracture,10,7,0,Emergency,Rehab,No
+P0217,36,Male,Neurology,Migraine,7,6,1,Planned,Home,No
+P0218,63,Male,Geriatrics,Dementia,9,1,4,Planned,Rehab,Yes
+P0219,44,Male,Orthopedics,Fracture,4,10,2,Planned,Home,No
+P0220,37,Male,Neurology,Stroke,4,6,1,Emergency,Rehab,No
+P0221,27,Male,Geriatrics,Dementia,8,1,3,Planned,Rehab,Yes
+P0222,61,Male,Cardiology,Hypertension,9,5,3,Emergency,Rehab,No
+P0223,45,Female,Orthopedics,Fracture,2,11,2,Emergency,Home,No
+P0224,89,Female,General Medicine,Infection,5,9,0,Planned,Rehab,No
+P0225,72,Female,Neurology,Migraine,6,5,3,Emergency,Home,Yes
+P0226,81,Female,General Medicine,Diabetes,14,8,0,Planned,Home,No
+P0227,22,Male,General Medicine,Infection,3,8,4,Emergency,Home,No
+P0228,55,Female,General Medicine,Infection,8,6,1,Emergency,Home,Yes
+P0229,23,Female,Geriatrics,Dementia,6,6,0,Emergency,Home,No
+P0230,70,Female,Geriatrics,Dementia,14,9,1,Planned,Home,Yes
+P0231,27,Male,Cardiology,Hypertension,10,3,4,Emergency,Rehab,No
+P0232,63,Male,Cardiology,Heart Failure,5,6,1,Planned,Rehab,No
+P0233,87,Male,Neurology,Migraine,3,4,0,Planned,Rehab,No
+P0234,39,Male,Neurology,Migraine,1,1,1,Emergency,Home,No
+P0235,33,Female,Cardiology,Hypertension,6,5,2,Planned,Home,No
+P0236,22,Female,Neurology,Stroke,1,6,1,Planned,Home,No
+P0237,29,Male,Neurology,Migraine,5,7,1,Planned,Rehab,No
+P0238,63,Male,General Medicine,Diabetes,2,8,1,Emergency,Home,Yes
+P0239,84,Female,General Medicine,Diabetes,5,9,0,Planned,Home,Yes
+P0240,28,Female,Geriatrics,Dementia,11,8,2,Planned,Home,No
+P0241,68,Male,Orthopedics,Fracture,5,2,4,Planned,Home,No
+P0242,28,Male,Cardiology,Heart Failure,2,3,2,Planned,Rehab,No
+P0243,20,Male,Cardiology,Hypertension,8,6,3,Planned,Home,No
+P0244,83,Male,Neurology,Migraine,13,8,2,Planned,Home,Yes
+P0245,33,Female,Orthopedics,Fracture,12,3,4,Planned,Rehab,No
+P0246,56,Female,Neurology,Stroke,5,3,2,Planned,Home,No
+P0247,45,Male,Neurology,Migraine,14,4,0,Emergency,Rehab,Yes
+P0248,61,Female,Cardiology,Heart Failure,9,2,2,Emergency,Home,Yes
+P0249,57,Female,General Medicine,Diabetes,1,7,0,Emergency,Home,No
+P0250,44,Male,General Medicine,Infection,1,1,1,Emergency,Rehab,No
+P0251,72,Female,Cardiology,Hypertension,8,8,2,Emergency,Rehab,Yes
+P0252,58,Male,General Medicine,Infection,3,6,2,Emergency,Rehab,No
+P0253,26,Male,Geriatrics,Stroke,3,8,1,Emergency,Home,No
+P0254,83,Male,Neurology,Stroke,4,1,3,Planned,Home,No
+P0255,46,Male,Orthopedics,Fracture,4,6,0,Planned,Rehab,No
+P0256,46,Female,Orthopedics,Fracture,7,1,3,Emergency,Rehab,No
+P0257,85,Female,Neurology,Stroke,10,5,2,Planned,Home,No
+P0258,57,Female,Neurology,Migraine,13,4,4,Emergency,Rehab,Yes
+P0259,71,Male,Orthopedics,Fracture,8,8,4,Planned,Rehab,Yes
+P0260,48,Male,General Medicine,Diabetes,4,2,2,Emergency,Rehab,No
+P0261,55,Male,Orthopedics,Fracture,4,10,2,Emergency,Home,No
+P0262,46,Female,Orthopedics,Fracture,5,4,2,Planned,Rehab,No
+P0263,57,Male,General Medicine,Diabetes,6,8,1,Emergency,Home,No
+P0264,65,Male,Neurology,Stroke,11,10,4,Planned,Rehab,No
+P0265,81,Female,Neurology,Stroke,2,9,0,Planned,Rehab,Yes
+P0266,79,Female,Cardiology,Heart Failure,11,4,3,Planned,Rehab,No
+P0267,24,Female,Cardiology,Hypertension,8,5,1,Emergency,Rehab,No
+P0268,50,Male,General Medicine,Diabetes,10,9,2,Planned,Rehab,Yes
+P0269,48,Male,General Medicine,Infection,14,8,0,Planned,Home,Yes
+P0270,30,Female,Cardiology,Heart Failure,7,1,4,Emergency,Home,No
+P0271,40,Female,Cardiology,Hypertension,10,4,0,Emergency,Rehab,No
+P0272,20,Female,Geriatrics,Dementia,6,7,2,Emergency,Home,No
+P0273,59,Male,Orthopedics,Fracture,5,9,4,Planned,Home,No
+P0274,28,Male,Neurology,Migraine,10,4,0,Emergency,Rehab,No
+P0275,45,Male,Geriatrics,Dementia,9,3,3,Planned,Rehab,No
+P0276,44,Male,Cardiology,Hypertension,10,11,1,Planned,Home,Yes
+P0277,26,Female,Orthopedics,Fracture,2,11,1,Planned,Home,No
+P0278,36,Male,Orthopedics,Fracture,11,11,3,Planned,Home,Yes
+P0279,70,Male,Neurology,Migraine,6,8,0,Planned,Rehab,Yes
+P0280,71,Male,Geriatrics,Dementia,6,5,0,Emergency,Rehab,No
+P0281,68,Female,Geriatrics,Stroke,13,11,1,Emergency,Rehab,Yes
+P0282,47,Female,Cardiology,Hypertension,2,5,0,Emergency,Rehab,No
+P0283,68,Female,Neurology,Migraine,4,6,3,Emergency,Home,No
+P0284,82,Male,Cardiology,Hypertension,13,8,0,Emergency,Home,Yes
+P0285,20,Female,General Medicine,Diabetes,13,7,2,Planned,Rehab,No
+P0286,75,Male,Cardiology,Hypertension,3,1,4,Emergency,Home,No
+P0287,49,Female,Geriatrics,Stroke,8,3,1,Emergency,Rehab,Yes
+P0288,20,Female,Geriatrics,Dementia,14,3,1,Planned,Home,No
+P0289,85,Female,Neurology,Migraine,6,1,1,Emergency,Rehab,Yes
+P0290,57,Male,General Medicine,Infection,3,4,0,Emergency,Home,No
+P0291,27,Female,Neurology,Migraine,13,7,2,Emergency,Rehab,No
+P0292,51,Female,Cardiology,Hypertension,10,10,2,Planned,Rehab,No
+P0293,53,Male,Orthopedics,Fracture,12,1,3,Planned,Rehab,No
+P0294,51,Male,Orthopedics,Fracture,2,7,4,Planned,Home,No
+P0295,27,Male,General Medicine,Infection,1,9,2,Planned,Home,No
+P0296,78,Male,Orthopedics,Fracture,13,8,0,Planned,Rehab,Yes
+P0297,86,Female,Cardiology,Hypertension,3,1,3,Planned,Home,Yes
+P0298,27,Male,Cardiology,Hypertension,2,3,2,Planned,Rehab,No
+P0299,35,Male,Neurology,Migraine,4,4,4,Planned,Rehab,No
+P0300,73,Female,Orthopedics,Fracture,5,7,1,Emergency,Home,No
+P0301,26,Male,Neurology,Migraine,10,7,0,Planned,Home,No
+P0302,42,Male,Neurology,Migraine,5,3,4,Planned,Rehab,No
+P0303,38,Female,Orthopedics,Fracture,4,2,1,Planned,Rehab,No
+P0304,20,Male,Cardiology,Hypertension,5,4,2,Emergency,Rehab,No
+P0305,21,Female,Neurology,Stroke,3,7,3,Emergency,Home,No
+P0306,39,Female,General Medicine,Diabetes,5,5,0,Emergency,Home,No
+P0307,72,Female,Geriatrics,Stroke,12,3,3,Emergency,Home,Yes
+P0308,43,Female,Cardiology,Hypertension,1,10,2,Emergency,Rehab,Yes
+P0309,33,Male,Geriatrics,Dementia,9,8,1,Planned,Home,No
+P0310,44,Male,Orthopedics,Fracture,7,9,2,Emergency,Home,No
+P0311,23,Female,General Medicine,Infection,10,10,4,Emergency,Rehab,No
+P0312,56,Male,Geriatrics,Dementia,11,6,1,Planned,Rehab,No
+P0313,61,Male,Geriatrics,Stroke,4,9,1,Planned,Home,No
+P0314,36,Female,Orthopedics,Fracture,5,9,1,Emergency,Rehab,No
+P0315,46,Male,General Medicine,Infection,9,6,2,Planned,Rehab,No
+P0316,59,Female,General Medicine,Diabetes,2,9,4,Planned,Home,Yes
+P0317,29,Female,Orthopedics,Fracture,13,1,1,Emergency,Rehab,No
+P0318,81,Female,Neurology,Migraine,10,2,3,Planned,Rehab,Yes
+P0319,73,Female,Neurology,Stroke,11,1,2,Emergency,Rehab,No
+P0320,72,Female,Neurology,Migraine,4,3,1,Emergency,Rehab,No
+P0321,48,Male,Cardiology,Heart Failure,5,11,2,Emergency,Home,No
+P0322,55,Female,General Medicine,Infection,1,11,2,Emergency,Rehab,No
+P0323,73,Male,Neurology,Migraine,2,7,4,Planned,Home,Yes
+P0324,75,Male,General Medicine,Diabetes,1,10,3,Planned,Home,Yes
+P0325,39,Male,Neurology,Stroke,3,3,3,Emergency,Rehab,No
+P0326,81,Male,General Medicine,Infection,11,11,1,Emergency,Rehab,Yes
+P0327,45,Female,General Medicine,Infection,2,5,0,Emergency,Rehab,No
+P0328,59,Male,Cardiology,Hypertension,1,1,0,Emergency,Rehab,No
+P0329,80,Female,General Medicine,Diabetes,11,8,1,Planned,Home,Yes
+P0330,44,Female,General Medicine,Diabetes,7,3,2,Planned,Rehab,No
+P0331,63,Male,General Medicine,Diabetes,3,6,1,Planned,Home,No
+P0332,31,Male,Neurology,Migraine,3,5,3,Emergency,Rehab,No
+P0333,78,Male,Neurology,Stroke,11,1,4,Planned,Rehab,Yes
+P0334,36,Female,Neurology,Stroke,10,9,0,Planned,Home,No
+P0335,66,Female,Orthopedics,Fracture,12,8,2,Emergency,Home,Yes
+P0336,27,Male,Cardiology,Heart Failure,5,1,4,Planned,Home,No
+P0337,89,Male,General Medicine,Infection,8,9,1,Emergency,Home,No
+P0338,31,Male,Orthopedics,Fracture,11,10,0,Planned,Home,No
+P0339,45,Female,Neurology,Migraine,10,7,0,Planned,Rehab,No
+P0340,42,Male,Orthopedics,Fracture,10,5,1,Emergency,Home,No
+P0341,26,Male,Neurology,Migraine,14,5,0,Planned,Rehab,No
+P0342,67,Female,General Medicine,Infection,8,2,2,Emergency,Home,No
+P0343,58,Female,Cardiology,Heart Failure,3,2,2,Planned,Home,No
+P0344,36,Male,Neurology,Stroke,14,8,2,Planned,Rehab,No
+P0345,79,Female,Orthopedics,Fracture,13,2,2,Planned,Home,No
+P0346,56,Male,General Medicine,Diabetes,11,8,1,Emergency,Rehab,No
+P0347,74,Male,Neurology,Migraine,7,7,0,Planned,Rehab,Yes
+P0348,23,Male,Orthopedics,Fracture,13,6,0,Planned,Home,No
+P0349,32,Female,Geriatrics,Dementia,2,1,4,Emergency,Rehab,No
+P0350,61,Male,General Medicine,Diabetes,12,2,2,Planned,Rehab,Yes
+P0351,61,Female,Cardiology,Heart Failure,2,11,4,Emergency,Rehab,No
+P0352,32,Male,Orthopedics,Fracture,2,3,2,Planned,Home,No
+P0353,58,Male,General Medicine,Infection,14,4,4,Emergency,Rehab,No
+P0354,81,Male,Orthopedics,Fracture,1,5,3,Planned,Home,No
+P0355,76,Female,Neurology,Stroke,8,9,1,Planned,Home,No
+P0356,49,Female,Geriatrics,Stroke,9,7,3,Emergency,Home,Yes
+P0357,24,Female,Geriatrics,Dementia,1,1,2,Emergency,Home,No
+P0358,64,Female,Neurology,Migraine,14,8,1,Emergency,Home,No
+P0359,87,Female,Cardiology,Heart Failure,2,5,0,Emergency,Home,No
+P0360,67,Male,Geriatrics,Stroke,1,5,0,Emergency,Home,No
+P0361,34,Male,Geriatrics,Dementia,1,9,3,Planned,Home,Yes
+P0362,31,Female,General Medicine,Infection,11,10,4,Emergency,Rehab,Yes
+P0363,80,Female,Geriatrics,Stroke,5,11,3,Emergency,Home,No
+P0364,89,Male,General Medicine,Infection,7,8,2,Planned,Rehab,Yes
+P0365,81,Female,Neurology,Stroke,13,2,0,Planned,Rehab,No
+P0366,71,Female,Geriatrics,Stroke,4,11,3,Emergency,Home,Yes
+P0367,82,Male,Cardiology,Hypertension,6,5,2,Planned,Home,Yes
+P0368,76,Male,Cardiology,Hypertension,10,9,0,Emergency,Home,Yes
+P0369,22,Male,Cardiology,Hypertension,8,6,4,Planned,Home,No
+P0370,24,Female,Orthopedics,Fracture,6,7,0,Planned,Rehab,Yes
+P0371,28,Male,Orthopedics,Fracture,3,4,1,Emergency,Home,No
+P0372,80,Male,Orthopedics,Fracture,11,10,2,Emergency,Home,Yes
+P0373,69,Male,Cardiology,Hypertension,2,1,2,Planned,Rehab,No
+P0374,51,Male,Neurology,Stroke,3,6,4,Emergency,Home,No
+P0375,87,Male,Cardiology,Hypertension,14,5,1,Emergency,Home,No
+P0376,30,Female,Cardiology,Heart Failure,9,8,2,Emergency,Rehab,No
+P0377,48,Male,Neurology,Stroke,9,3,0,Planned,Rehab,No
+P0378,61,Female,Geriatrics,Dementia,9,8,0,Planned,Rehab,Yes
+P0379,24,Male,Orthopedics,Fracture,11,11,1,Emergency,Home,No
+P0380,57,Female,Orthopedics,Fracture,8,11,4,Emergency,Rehab,No
+P0381,67,Female,General Medicine,Diabetes,10,2,4,Planned,Rehab,No
+P0382,79,Male,General Medicine,Infection,13,5,4,Emergency,Rehab,Yes
+P0383,59,Female,Neurology,Migraine,13,3,1,Planned,Home,No
+P0384,86,Female,Geriatrics,Stroke,8,8,1,Planned,Home,No
+P0385,59,Female,Orthopedics,Fracture,11,1,2,Planned,Rehab,No
+P0386,59,Male,Neurology,Stroke,12,1,2,Emergency,Rehab,Yes
+P0387,78,Male,Geriatrics,Stroke,9,11,4,Planned,Home,Yes
+P0388,72,Male,Orthopedics,Fracture,10,4,2,Emergency,Rehab,No
+P0389,57,Female,Orthopedics,Fracture,12,7,4,Planned,Rehab,No
+P0390,64,Male,Neurology,Migraine,10,9,2,Planned,Rehab,Yes
+P0391,50,Male,General Medicine,Infection,7,10,1,Planned,Home,No
+P0392,51,Female,Neurology,Stroke,11,5,1,Planned,Home,Yes
+P0393,21,Female,Orthopedics,Fracture,14,7,1,Emergency,Rehab,No
+P0394,32,Male,Cardiology,Heart Failure,14,11,0,Planned,Rehab,Yes
+P0395,36,Female,Neurology,Stroke,8,2,3,Emergency,Rehab,Yes
+P0396,83,Male,Geriatrics,Stroke,8,3,2,Emergency,Rehab,Yes
+P0397,49,Female,Orthopedics,Fracture,7,10,0,Planned,Home,Yes
+P0398,82,Male,Neurology,Stroke,12,5,4,Emergency,Rehab,No
+P0399,41,Female,Orthopedics,Fracture,4,4,3,Emergency,Rehab,No
+P0400,87,Female,Geriatrics,Stroke,11,1,3,Emergency,Home,Yes
+P0401,41,Female,Neurology,Stroke,1,10,0,Emergency,Rehab,No
+P0402,41,Male,Neurology,Stroke,10,8,2,Emergency,Rehab,No
+P0403,69,Female,Orthopedics,Fracture,14,4,2,Emergency,Home,No
+P0404,71,Female,General Medicine,Diabetes,13,7,4,Emergency,Rehab,Yes
+P0405,30,Male,Cardiology,Hypertension,1,6,2,Planned,Rehab,No
+P0406,77,Male,Neurology,Stroke,7,10,1,Emergency,Rehab,Yes
+P0407,65,Male,Geriatrics,Dementia,2,4,0,Planned,Rehab,No
+P0408,32,Female,Cardiology,Hypertension,9,7,4,Planned,Home,No
+P0409,48,Female,Geriatrics,Stroke,11,4,1,Planned,Home,Yes
+P0410,66,Male,Neurology,Migraine,14,4,2,Planned,Home,No
+P0411,46,Female,General Medicine,Diabetes,3,1,3,Planned,Home,No
+P0412,75,Male,Cardiology,Hypertension,12,5,4,Emergency,Rehab,Yes
+P0413,78,Female,Geriatrics,Dementia,4,6,2,Emergency,Home,No
+P0414,76,Female,Neurology,Stroke,5,3,2,Planned,Rehab,No
+P0415,20,Female,Neurology,Migraine,10,6,1,Planned,Home,No
+P0416,80,Male,Neurology,Stroke,3,1,0,Emergency,Rehab,No
+P0417,43,Male,Neurology,Stroke,12,2,3,Planned,Home,No
+P0418,46,Female,Orthopedics,Fracture,8,9,0,Emergency,Rehab,Yes
+P0419,72,Male,Cardiology,Hypertension,8,11,1,Planned,Home,Yes
+P0420,22,Female,General Medicine,Infection,13,5,3,Emergency,Home,No
+P0421,22,Female,Cardiology,Hypertension,4,9,0,Planned,Home,No
+P0422,28,Male,General Medicine,Infection,6,9,3,Emergency,Rehab,No
+P0423,82,Male,Neurology,Migraine,6,6,4,Emergency,Rehab,No
+P0424,21,Female,Geriatrics,Stroke,8,8,2,Emergency,Home,Yes
+P0425,83,Male,Geriatrics,Dementia,13,1,4,Emergency,Rehab,No
+P0426,37,Female,Orthopedics,Fracture,14,2,2,Emergency,Rehab,Yes
+P0427,64,Female,Geriatrics,Dementia,9,1,3,Planned,Rehab,Yes
+P0428,60,Male,General Medicine,Diabetes,8,11,2,Emergency,Home,No
+P0429,60,Female,Neurology,Migraine,1,9,3,Emergency,Home,No
+P0430,39,Male,Neurology,Migraine,1,10,1,Planned,Rehab,No
+P0431,21,Male,Cardiology,Hypertension,1,1,0,Emergency,Rehab,No
+P0432,49,Female,Orthopedics,Fracture,1,4,1,Emergency,Home,No
+P0433,41,Male,Orthopedics,Fracture,7,2,1,Planned,Home,No
+P0434,65,Male,Orthopedics,Fracture,10,2,1,Emergency,Rehab,No
+P0435,63,Female,Orthopedics,Fracture,1,8,2,Planned,Rehab,Yes
+P0436,80,Male,Geriatrics,Stroke,3,11,0,Emergency,Home,Yes
+P0437,25,Male,General Medicine,Diabetes,9,7,0,Emergency,Home,No
+P0438,27,Male,Orthopedics,Fracture,8,2,3,Planned,Home,No
+P0439,81,Female,Geriatrics,Stroke,4,11,2,Emergency,Home,No
+P0440,23,Female,General Medicine,Infection,6,10,1,Planned,Home,Yes
+P0441,22,Female,Neurology,Stroke,9,10,2,Emergency,Home,No
+P0442,31,Male,Orthopedics,Fracture,7,9,4,Emergency,Home,Yes
+P0443,38,Female,Orthopedics,Fracture,7,4,4,Emergency,Rehab,Yes
+P0444,27,Female,Orthopedics,Fracture,13,7,4,Planned,Home,No
+P0445,74,Female,Geriatrics,Dementia,3,2,1,Emergency,Rehab,No
+P0446,41,Female,Orthopedics,Fracture,5,8,0,Planned,Home,No
+P0447,78,Female,Geriatrics,Dementia,3,10,2,Emergency,Rehab,Yes
+P0448,54,Male,Neurology,Migraine,13,6,0,Planned,Rehab,No
+P0449,26,Male,Orthopedics,Fracture,12,1,4,Planned,Rehab,No
+P0450,50,Male,Geriatrics,Dementia,10,8,3,Planned,Home,Yes
+P0451,56,Male,Neurology,Migraine,4,4,3,Planned,Rehab,No
+P0452,43,Female,Geriatrics,Stroke,2,1,2,Planned,Home,No
+P0453,55,Male,Cardiology,Hypertension,10,5,1,Planned,Rehab,No
+P0454,85,Male,Geriatrics,Dementia,2,4,1,Planned,Home,No
+P0455,77,Female,Neurology,Stroke,6,3,4,Emergency,Home,No
+P0456,37,Male,Orthopedics,Fracture,8,5,0,Emergency,Home,Yes
+P0457,45,Female,Cardiology,Hypertension,8,4,1,Emergency,Rehab,No
+P0458,63,Female,General Medicine,Infection,14,2,4,Planned,Rehab,Yes
+P0459,88,Female,Neurology,Stroke,6,9,3,Planned,Home,Yes
+P0460,33,Male,General Medicine,Diabetes,8,7,0,Emergency,Home,No
+P0461,21,Female,Cardiology,Hypertension,7,6,0,Planned,Home,No
+P0462,47,Female,Geriatrics,Stroke,2,3,4,Planned,Rehab,No
+P0463,24,Male,Neurology,Stroke,1,8,3,Planned,Home,No
+P0464,75,Male,General Medicine,Diabetes,4,7,2,Emergency,Home,No
+P0465,29,Male,Geriatrics,Stroke,3,6,1,Planned,Home,No
+P0466,29,Male,Orthopedics,Fracture,12,9,0,Emergency,Rehab,Yes
+P0467,24,Female,Neurology,Migraine,4,8,2,Planned,Home,Yes
+P0468,20,Male,Geriatrics,Stroke,9,6,3,Emergency,Rehab,No
+P0469,47,Male,Orthopedics,Fracture,9,11,4,Planned,Home,No
+P0470,66,Female,General Medicine,Infection,5,5,0,Emergency,Rehab,No
+P0471,63,Female,Cardiology,Heart Failure,8,6,3,Planned,Home,Yes
+P0472,80,Female,Neurology,Migraine,4,2,1,Planned,Home,Yes
+P0473,56,Female,Geriatrics,Stroke,4,10,4,Planned,Home,No
+P0474,20,Male,Cardiology,Heart Failure,7,3,4,Emergency,Home,No
+P0475,78,Male,Geriatrics,Stroke,5,1,0,Planned,Home,Yes
+P0476,70,Female,General Medicine,Diabetes,14,10,3,Planned,Home,Yes
+P0477,72,Female,Orthopedics,Fracture,2,8,2,Planned,Rehab,Yes
+P0478,62,Male,Orthopedics,Fracture,14,2,0,Emergency,Rehab,Yes
+P0479,69,Female,Cardiology,Heart Failure,13,9,2,Planned,Home,Yes
+P0480,69,Female,Cardiology,Heart Failure,7,6,3,Emergency,Home,Yes
+P0481,42,Female,General Medicine,Diabetes,14,4,1,Planned,Rehab,No
+P0482,27,Male,Cardiology,Hypertension,2,5,0,Emergency,Home,No
+P0483,27,Male,General Medicine,Diabetes,13,6,4,Planned,Home,Yes
+P0484,66,Female,Geriatrics,Dementia,2,1,1,Emergency,Home,No
+P0485,62,Female,General Medicine,Diabetes,10,2,1,Planned,Rehab,Yes
+P0486,36,Female,Geriatrics,Stroke,10,8,0,Planned,Rehab,No
+P0487,65,Female,Orthopedics,Fracture,4,1,0,Planned,Rehab,No
+P0488,38,Female,Geriatrics,Dementia,14,5,4,Emergency,Home,No
+P0489,81,Female,Neurology,Migraine,12,2,1,Emergency,Home,No
+P0490,83,Female,Neurology,Migraine,6,9,0,Planned,Rehab,Yes
+P0491,60,Male,Orthopedics,Fracture,9,9,4,Planned,Home,No
+P0492,50,Female,Cardiology,Hypertension,9,11,3,Planned,Home,No
+P0493,23,Female,Neurology,Migraine,6,3,1,Planned,Rehab,No
+P0494,32,Female,Cardiology,Heart Failure,9,7,2,Emergency,Rehab,No
+P0495,20,Male,Cardiology,Hypertension,8,6,0,Emergency,Rehab,No
+P0496,34,Male,Geriatrics,Stroke,1,10,4,Emergency,Rehab,No
+P0497,38,Male,Orthopedics,Fracture,12,9,0,Planned,Rehab,No
+P0498,68,Female,General Medicine,Infection,1,3,3,Emergency,Home,Yes
+P0499,30,Female,Neurology,Stroke,3,8,1,Emergency,Rehab,No
+P0500,85,Female,Geriatrics,Stroke,14,9,2,Emergency,Rehab,No
+P0501,45,Female,General Medicine,Diabetes,8,2,3,Planned,Home,No
+P0502,45,Male,Orthopedics,Fracture,9,5,1,Emergency,Rehab,No
+P0503,67,Female,Cardiology,Hypertension,5,4,2,Emergency,Rehab,Yes
+P0504,67,Male,General Medicine,Diabetes,7,6,1,Emergency,Home,No
+P0505,62,Male,General Medicine,Diabetes,13,5,2,Planned,Home,No
+P0506,66,Male,Geriatrics,Dementia,5,9,3,Emergency,Rehab,No
+P0507,70,Female,General Medicine,Diabetes,4,5,4,Emergency,Rehab,No
+P0508,38,Female,Orthopedics,Fracture,2,4,4,Planned,Rehab,No
+P0509,71,Female,Cardiology,Heart Failure,14,11,4,Planned,Rehab,No
+P0510,47,Female,General Medicine,Diabetes,3,8,1,Emergency,Home,No
+P0511,55,Male,Orthopedics,Fracture,14,2,1,Planned,Rehab,No
+P0512,68,Male,Geriatrics,Dementia,13,4,1,Emergency,Home,No
+P0513,26,Male,Orthopedics,Fracture,12,10,4,Emergency,Home,Yes
+P0514,50,Female,Neurology,Stroke,7,8,0,Planned,Rehab,No
+P0515,61,Male,Orthopedics,Fracture,13,10,3,Emergency,Rehab,Yes
+P0516,87,Female,General Medicine,Diabetes,6,7,0,Planned,Home,No
+P0517,63,Male,Cardiology,Hypertension,8,10,2,Emergency,Rehab,Yes
+P0518,32,Female,Neurology,Stroke,7,6,4,Planned,Rehab,No
+P0519,28,Female,Orthopedics,Fracture,10,9,1,Planned,Home,Yes
+P0520,61,Female,Geriatrics,Stroke,8,8,0,Planned,Rehab,Yes
+P0521,45,Male,Neurology,Migraine,11,5,3,Planned,Home,No
+P0522,69,Male,Cardiology,Heart Failure,8,3,3,Planned,Rehab,Yes
+P0523,79,Female,Geriatrics,Stroke,7,10,0,Planned,Rehab,Yes
+P0524,37,Female,General Medicine,Infection,3,4,1,Planned,Home,No
+P0525,74,Male,Orthopedics,Fracture,2,5,0,Planned,Rehab,Yes
+P0526,52,Male,Neurology,Migraine,7,5,0,Planned,Home,Yes
+P0527,41,Female,Orthopedics,Fracture,5,3,3,Emergency,Home,No
+P0528,51,Male,General Medicine,Infection,11,10,0,Planned,Rehab,No
+P0529,76,Female,Geriatrics,Dementia,14,9,1,Planned,Rehab,Yes
+P0530,83,Male,Orthopedics,Fracture,3,7,4,Planned,Home,No
+P0531,37,Male,Cardiology,Heart Failure,3,10,4,Emergency,Rehab,No
+P0532,58,Female,General Medicine,Diabetes,9,1,2,Planned,Rehab,Yes
+P0533,43,Female,Cardiology,Heart Failure,12,3,3,Emergency,Home,No
+P0534,61,Male,Geriatrics,Dementia,7,4,4,Emergency,Home,Yes
+P0535,55,Female,Neurology,Stroke,3,9,0,Planned,Rehab,No
+P0536,89,Female,Cardiology,Heart Failure,9,7,3,Planned,Home,Yes
+P0537,32,Male,Orthopedics,Fracture,1,2,3,Planned,Home,No
+P0538,24,Female,Geriatrics,Stroke,12,11,4,Planned,Home,Yes
+P0539,27,Male,Cardiology,Heart Failure,6,8,1,Emergency,Rehab,No
+P0540,86,Female,Orthopedics,Fracture,6,10,2,Planned,Home,Yes
+P0541,89,Female,Cardiology,Heart Failure,2,7,3,Emergency,Home,Yes
+P0542,21,Female,Cardiology,Heart Failure,6,1,2,Planned,Home,No
+P0543,49,Male,General Medicine,Infection,4,8,3,Emergency,Rehab,No
+P0544,77,Female,Orthopedics,Fracture,4,5,4,Planned,Home,No
+P0545,50,Female,General Medicine,Diabetes,9,7,1,Emergency,Rehab,No
+P0546,81,Male,General Medicine,Diabetes,14,9,3,Emergency,Home,Yes
+P0547,36,Male,Geriatrics,Stroke,12,8,3,Emergency,Home,No
+P0548,22,Male,Orthopedics,Fracture,14,7,3,Emergency,Rehab,Yes
+P0549,24,Female,Orthopedics,Fracture,4,8,3,Planned,Home,No
+P0550,84,Female,Geriatrics,Dementia,9,5,3,Planned,Rehab,Yes
+P0551,89,Male,Cardiology,Hypertension,6,2,0,Emergency,Rehab,No
+P0552,35,Male,Cardiology,Heart Failure,12,6,3,Emergency,Rehab,Yes
+P0553,33,Male,Geriatrics,Dementia,4,1,1,Planned,Home,No
+P0554,85,Female,Geriatrics,Dementia,9,5,1,Emergency,Rehab,Yes
+P0555,84,Male,General Medicine,Diabetes,11,3,3,Emergency,Home,Yes
+P0556,81,Female,Geriatrics,Dementia,7,10,3,Emergency,Home,No
+P0557,74,Male,Cardiology,Hypertension,6,3,2,Planned,Rehab,Yes
+P0558,34,Male,Neurology,Stroke,6,5,3,Planned,Home,Yes
+P0559,31,Male,Neurology,Stroke,1,10,1,Emergency,Rehab,No
+P0560,64,Female,Neurology,Stroke,3,8,1,Emergency,Rehab,No
+P0561,49,Male,General Medicine,Infection,14,6,2,Emergency,Home,No
+P0562,26,Male,Cardiology,Heart Failure,4,9,4,Emergency,Home,No
+P0563,54,Female,Geriatrics,Dementia,2,11,1,Emergency,Rehab,No
+P0564,54,Male,Geriatrics,Stroke,2,4,1,Planned,Rehab,No
+P0565,29,Male,Cardiology,Heart Failure,9,2,0,Planned,Home,Yes
+P0566,73,Male,Neurology,Stroke,1,4,0,Planned,Rehab,No
+P0567,73,Male,Orthopedics,Fracture,14,4,2,Emergency,Home,No
+P0568,60,Male,Orthopedics,Fracture,6,9,4,Planned,Rehab,Yes
+P0569,27,Male,Orthopedics,Fracture,5,2,3,Planned,Home,No
+P0570,44,Male,General Medicine,Diabetes,4,4,1,Emergency,Home,No
+P0571,79,Male,Neurology,Migraine,6,11,1,Planned,Home,Yes
+P0572,79,Female,Geriatrics,Stroke,7,3,2,Emergency,Home,Yes
+P0573,24,Male,Cardiology,Heart Failure,3,2,1,Emergency,Rehab,No
+P0574,21,Female,General Medicine,Diabetes,14,11,1,Emergency,Home,Yes
+P0575,50,Male,General Medicine,Infection,8,9,2,Planned,Rehab,Yes
+P0576,28,Male,General Medicine,Infection,3,5,0,Emergency,Rehab,No
+P0577,47,Male,Geriatrics,Stroke,14,3,3,Emergency,Home,No
+P0578,23,Female,Neurology,Stroke,4,7,0,Planned,Rehab,No
+P0579,71,Female,Geriatrics,Stroke,13,4,3,Emergency,Rehab,No
+P0580,57,Male,Cardiology,Heart Failure,7,2,4,Emergency,Rehab,No
+P0581,82,Female,Geriatrics,Dementia,14,3,2,Emergency,Rehab,No
+P0582,33,Female,General Medicine,Infection,7,5,4,Emergency,Rehab,Yes
+P0583,24,Female,Cardiology,Hypertension,14,7,1,Planned,Rehab,Yes
+P0584,81,Female,Cardiology,Heart Failure,11,5,4,Planned,Home,Yes
+P0585,29,Male,Cardiology,Heart Failure,7,10,4,Planned,Home,No
+P0586,84,Female,Cardiology,Heart Failure,13,5,1,Planned,Home,No
+P0587,72,Male,Neurology,Migraine,2,5,4,Planned,Rehab,No
+P0588,51,Female,Cardiology,Hypertension,4,1,2,Planned,Rehab,No
+P0589,79,Female,Neurology,Stroke,11,5,3,Planned,Rehab,No
+P0590,74,Female,Cardiology,Hypertension,5,10,3,Planned,Rehab,Yes
+P0591,53,Male,Geriatrics,Dementia,4,2,2,Emergency,Rehab,No
+P0592,71,Male,Neurology,Stroke,13,6,1,Emergency,Home,Yes
+P0593,40,Female,Cardiology,Hypertension,10,1,0,Emergency,Rehab,No
+P0594,83,Female,Orthopedics,Fracture,1,8,0,Emergency,Rehab,Yes
+P0595,60,Female,Cardiology,Hypertension,1,2,3,Emergency,Rehab,No
+P0596,67,Male,General Medicine,Infection,13,1,1,Emergency,Rehab,No
+P0597,77,Male,Neurology,Migraine,12,8,4,Emergency,Home,Yes
+P0598,47,Male,Neurology,Stroke,11,7,1,Planned,Home,Yes
+P0599,27,Female,Orthopedics,Fracture,11,6,0,Planned,Rehab,No
+P0600,36,Male,Orthopedics,Fracture,12,7,4,Planned,Rehab,No
+P0601,88,Female,Neurology,Migraine,12,1,4,Emergency,Rehab,No
+P0602,27,Male,Neurology,Stroke,13,8,0,Planned,Rehab,No
+P0603,62,Male,Orthopedics,Fracture,1,3,2,Emergency,Rehab,No
+P0604,43,Female,Cardiology,Heart Failure,1,5,3,Planned,Home,No
+P0605,40,Male,General Medicine,Diabetes,8,10,3,Emergency,Home,Yes
+P0606,30,Female,General Medicine,Infection,4,3,2,Planned,Home,No
+P0607,47,Female,Cardiology,Heart Failure,3,11,1,Planned,Home,No
+P0608,24,Male,General Medicine,Diabetes,5,6,1,Planned,Rehab,No
+P0609,57,Female,Cardiology,Hypertension,12,1,0,Planned,Home,No
+P0610,85,Male,General Medicine,Infection,2,3,0,Emergency,Rehab,No
+P0611,55,Female,Orthopedics,Fracture,14,4,0,Emergency,Rehab,Yes
+P0612,60,Male,Geriatrics,Dementia,9,10,1,Planned,Rehab,No
+P0613,29,Male,Neurology,Stroke,5,4,3,Planned,Rehab,No
+P0614,21,Male,Geriatrics,Dementia,6,5,3,Emergency,Rehab,No
+P0615,30,Male,Geriatrics,Stroke,10,1,1,Planned,Rehab,Yes
+P0616,74,Male,General Medicine,Infection,9,9,2,Planned,Rehab,Yes
+P0617,41,Male,Neurology,Migraine,4,4,4,Emergency,Home,No
+P0618,63,Male,Neurology,Stroke,3,1,4,Emergency,Rehab,No
+P0619,51,Female,Geriatrics,Stroke,14,7,0,Planned,Rehab,No
+P0620,31,Male,Cardiology,Heart Failure,9,2,4,Emergency,Home,No
+P0621,32,Female,Orthopedics,Fracture,14,5,3,Emergency,Rehab,No
+P0622,41,Female,General Medicine,Diabetes,11,9,3,Emergency,Rehab,Yes
+P0623,48,Female,Orthopedics,Fracture,13,2,1,Emergency,Home,Yes
+P0624,48,Female,Cardiology,Hypertension,5,4,2,Emergency,Rehab,No
+P0625,69,Female,Neurology,Migraine,3,7,3,Planned,Home,Yes
+P0626,41,Male,Neurology,Stroke,11,5,4,Planned,Home,No
+P0627,75,Female,Neurology,Migraine,3,6,2,Planned,Home,No
+P0628,42,Female,Cardiology,Heart Failure,13,7,3,Emergency,Home,No
+P0629,44,Male,Cardiology,Heart Failure,5,8,1,Planned,Home,No
+P0630,77,Male,Geriatrics,Stroke,8,1,3,Planned,Rehab,Yes
+P0631,24,Male,Orthopedics,Fracture,3,1,3,Emergency,Home,No
+P0632,83,Female,Neurology,Migraine,10,2,2,Planned,Home,Yes
+P0633,29,Male,Cardiology,Heart Failure,5,7,2,Emergency,Home,No
+P0634,46,Male,Geriatrics,Stroke,2,9,4,Emergency,Home,Yes
+P0635,28,Male,Geriatrics,Stroke,4,4,1,Emergency,Rehab,No
+P0636,77,Female,Cardiology,Hypertension,6,1,0,Emergency,Home,No
+P0637,53,Female,Cardiology,Hypertension,5,9,3,Planned,Home,No
+P0638,35,Female,Neurology,Stroke,3,7,2,Planned,Home,No
+P0639,77,Male,Cardiology,Heart Failure,4,4,3,Planned,Rehab,Yes
+P0640,29,Female,Orthopedics,Fracture,8,6,2,Planned,Rehab,No
+P0641,45,Female,Orthopedics,Fracture,5,6,4,Planned,Rehab,No
+P0642,73,Male,Neurology,Migraine,8,7,4,Emergency,Home,Yes
+P0643,57,Female,General Medicine,Diabetes,14,4,3,Planned,Home,No
+P0644,76,Male,Cardiology,Heart Failure,13,4,0,Planned,Home,Yes
+P0645,23,Male,Geriatrics,Dementia,13,3,4,Planned,Rehab,No
+P0646,77,Female,Geriatrics,Dementia,7,4,3,Emergency,Rehab,Yes
+P0647,43,Female,Neurology,Stroke,2,2,2,Emergency,Rehab,No
+P0648,50,Male,Geriatrics,Stroke,12,3,0,Emergency,Home,Yes
+P0649,82,Female,Neurology,Stroke,14,3,4,Emergency,Home,No
+P0650,49,Female,Neurology,Migraine,10,6,4,Emergency,Home,No
+P0651,50,Male,Cardiology,Heart Failure,4,3,4,Planned,Rehab,No
+P0652,74,Female,Orthopedics,Fracture,1,7,0,Planned,Rehab,No
+P0653,37,Male,Geriatrics,Stroke,4,1,2,Emergency,Rehab,No
+P0654,66,Female,Geriatrics,Dementia,11,9,3,Emergency,Home,Yes
+P0655,64,Female,Geriatrics,Dementia,1,1,3,Emergency,Home,Yes
+P0656,39,Male,Geriatrics,Dementia,11,6,3,Emergency,Rehab,No
+P0657,28,Male,Neurology,Stroke,10,5,0,Emergency,Home,Yes
+P0658,80,Female,Geriatrics,Stroke,10,2,2,Emergency,Home,Yes
+P0659,89,Female,Cardiology,Heart Failure,1,11,4,Planned,Home,No
+P0660,70,Male,General Medicine,Infection,5,3,1,Planned,Rehab,No
+P0661,54,Female,Cardiology,Heart Failure,14,10,2,Emergency,Rehab,Yes
+P0662,88,Female,Cardiology,Hypertension,13,5,3,Planned,Rehab,No
+P0663,68,Male,Geriatrics,Stroke,5,10,4,Planned,Home,No
+P0664,89,Male,Neurology,Migraine,10,4,1,Planned,Rehab,No
+P0665,54,Female,Geriatrics,Stroke,1,8,0,Planned,Rehab,No
+P0666,89,Male,Cardiology,Hypertension,9,6,3,Emergency,Rehab,No
+P0667,79,Male,Orthopedics,Fracture,9,4,0,Planned,Home,No
+P0668,55,Male,Orthopedics,Fracture,5,8,3,Emergency,Home,No
+P0669,49,Male,Cardiology,Hypertension,6,7,2,Planned,Home,No
+P0670,74,Female,Geriatrics,Stroke,12,8,1,Emergency,Home,Yes
+P0671,35,Female,Orthopedics,Fracture,6,10,0,Emergency,Rehab,Yes
+P0672,89,Female,Neurology,Migraine,12,9,4,Planned,Home,Yes
+P0673,75,Male,Geriatrics,Stroke,11,4,1,Emergency,Rehab,No
+P0674,76,Female,Geriatrics,Dementia,5,4,1,Planned,Rehab,Yes
+P0675,52,Male,Neurology,Stroke,11,7,1,Emergency,Home,Yes
+P0676,51,Male,Cardiology,Hypertension,8,11,3,Emergency,Home,Yes
+P0677,34,Male,Cardiology,Hypertension,7,5,1,Planned,Home,No
+P0678,45,Female,Orthopedics,Fracture,12,8,0,Planned,Home,Yes
+P0679,56,Male,Orthopedics,Fracture,10,5,1,Emergency,Rehab,Yes
+P0680,88,Female,Orthopedics,Fracture,3,7,1,Emergency,Rehab,No
+P0681,56,Male,Cardiology,Hypertension,8,1,2,Emergency,Home,No
+P0682,31,Male,General Medicine,Diabetes,9,9,0,Emergency,Home,No
+P0683,69,Female,Geriatrics,Stroke,5,4,1,Emergency,Home,Yes
+P0684,52,Female,General Medicine,Infection,1,8,4,Planned,Rehab,No
+P0685,80,Female,Orthopedics,Fracture,2,10,2,Emergency,Rehab,Yes
+P0686,60,Male,General Medicine,Diabetes,7,6,0,Planned,Home,No
+P0687,36,Male,Geriatrics,Dementia,2,6,1,Planned,Home,No
+P0688,84,Male,Orthopedics,Fracture,10,5,4,Planned,Home,Yes
+P0689,21,Male,Neurology,Stroke,6,9,1,Planned,Rehab,No
+P0690,35,Male,Neurology,Stroke,3,7,3,Planned,Home,No
+P0691,59,Male,Neurology,Migraine,6,11,1,Planned,Rehab,No
+P0692,83,Male,Orthopedics,Fracture,3,1,4,Emergency,Rehab,No
+P0693,39,Female,Geriatrics,Stroke,10,4,3,Planned,Home,Yes
+P0694,34,Female,Geriatrics,Stroke,8,8,4,Emergency,Rehab,No
+P0695,33,Male,Neurology,Migraine,11,9,1,Emergency,Home,Yes
+P0696,47,Female,Geriatrics,Dementia,10,1,1,Planned,Home,No
+P0697,44,Female,Geriatrics,Dementia,8,3,3,Planned,Rehab,Yes
+P0698,61,Female,Orthopedics,Fracture,4,3,3,Planned,Rehab,Yes
+P0699,42,Male,Orthopedics,Fracture,9,11,1,Planned,Home,No
+P0700,62,Male,Neurology,Stroke,3,5,2,Emergency,Home,No
+P0701,30,Female,Geriatrics,Stroke,8,10,3,Emergency,Rehab,Yes
+P0702,60,Female,Orthopedics,Fracture,4,5,4,Planned,Home,No
+P0703,74,Female,Geriatrics,Stroke,9,8,1,Emergency,Home,Yes
+P0704,61,Female,Cardiology,Hypertension,12,4,3,Emergency,Home,Yes
+P0705,21,Male,Orthopedics,Fracture,7,3,4,Emergency,Rehab,No
+P0706,22,Female,Neurology,Migraine,11,2,2,Planned,Home,Yes
+P0707,59,Male,General Medicine,Infection,6,1,3,Emergency,Rehab,Yes
+P0708,20,Male,Neurology,Migraine,7,8,4,Emergency,Home,No
+P0709,51,Female,Neurology,Stroke,12,11,4,Emergency,Rehab,No
+P0710,23,Male,Neurology,Stroke,14,6,2,Planned,Home,No
+P0711,51,Female,Neurology,Migraine,9,11,0,Planned,Home,No
+P0712,82,Female,Cardiology,Hypertension,13,7,4,Emergency,Rehab,No
+P0713,40,Male,Cardiology,Hypertension,14,2,3,Planned,Rehab,No
+P0714,47,Male,Orthopedics,Fracture,6,10,2,Planned,Home,No
+P0715,46,Male,General Medicine,Infection,5,9,2,Planned,Rehab,No
+P0716,87,Male,General Medicine,Diabetes,9,4,1,Planned,Home,Yes
+P0717,45,Female,Cardiology,Heart Failure,14,5,2,Emergency,Home,Yes
+P0718,80,Male,Cardiology,Hypertension,12,9,3,Planned,Home,Yes
+P0719,69,Female,Geriatrics,Stroke,6,3,3,Emergency,Rehab,No
+P0720,63,Female,Neurology,Migraine,9,11,1,Planned,Home,Yes
+P0721,66,Male,General Medicine,Infection,12,9,4,Emergency,Rehab,Yes
+P0722,22,Male,General Medicine,Infection,12,10,4,Planned,Rehab,Yes
+P0723,47,Female,Orthopedics,Fracture,8,10,0,Emergency,Rehab,No
+P0724,54,Male,Neurology,Migraine,4,2,0,Planned,Home,No
+P0725,70,Male,Orthopedics,Fracture,2,10,2,Planned,Home,No
+P0726,76,Male,General Medicine,Infection,7,6,0,Emergency,Home,Yes
+P0727,88,Female,Geriatrics,Stroke,12,11,2,Emergency,Home,Yes
+P0728,54,Female,Geriatrics,Dementia,1,4,4,Planned,Home,No
+P0729,35,Female,Neurology,Migraine,2,2,2,Planned,Rehab,No
+P0730,59,Male,Neurology,Stroke,8,7,0,Planned,Rehab,No
+P0731,39,Male,General Medicine,Diabetes,12,1,2,Emergency,Home,No
+P0732,23,Female,Orthopedics,Fracture,10,9,4,Planned,Home,Yes
+P0733,76,Female,Cardiology,Heart Failure,5,5,3,Emergency,Rehab,No
+P0734,33,Male,Cardiology,Heart Failure,4,1,0,Planned,Home,No
+P0735,25,Female,Geriatrics,Stroke,11,11,2,Emergency,Home,Yes
+P0736,65,Female,Geriatrics,Stroke,6,4,4,Planned,Rehab,Yes
+P0737,81,Female,Geriatrics,Dementia,3,3,2,Planned,Rehab,No
+P0738,44,Female,Neurology,Stroke,8,8,1,Emergency,Rehab,Yes
+P0739,41,Female,General Medicine,Diabetes,9,3,2,Emergency,Home,No
+P0740,22,Male,General Medicine,Diabetes,10,3,0,Emergency,Rehab,No
+P0741,47,Male,Orthopedics,Fracture,4,7,0,Emergency,Home,No
+P0742,38,Female,Neurology,Stroke,4,8,4,Emergency,Home,No
+P0743,80,Female,Neurology,Stroke,4,8,0,Emergency,Home,No
+P0744,49,Female,Geriatrics,Dementia,9,1,3,Planned,Home,No
+P0745,33,Male,Geriatrics,Dementia,11,5,2,Planned,Rehab,No
+P0746,78,Male,Orthopedics,Fracture,14,9,3,Emergency,Home,Yes
+P0747,87,Female,Orthopedics,Fracture,12,8,1,Emergency,Rehab,Yes
+P0748,60,Male,Neurology,Stroke,8,7,4,Planned,Rehab,Yes
+P0749,81,Male,Neurology,Stroke,1,3,2,Emergency,Home,Yes
+P0750,83,Female,Cardiology,Heart Failure,14,2,4,Planned,Rehab,No
+P0751,40,Female,General Medicine,Diabetes,5,4,4,Planned,Home,No
+P0752,86,Female,General Medicine,Diabetes,12,1,4,Emergency,Home,No
+P0753,80,Male,Cardiology,Hypertension,9,4,2,Planned,Rehab,No
+P0754,84,Female,General Medicine,Infection,8,7,3,Planned,Home,No
+P0755,73,Female,Cardiology,Hypertension,12,9,2,Emergency,Home,Yes
+P0756,45,Female,Cardiology,Hypertension,4,6,4,Emergency,Home,No
+P0757,70,Male,General Medicine,Diabetes,6,4,0,Planned,Home,No
+P0758,48,Female,Geriatrics,Stroke,3,4,3,Planned,Rehab,No
+P0759,47,Female,Orthopedics,Fracture,4,6,3,Emergency,Home,No
+P0760,64,Male,Cardiology,Heart Failure,3,6,3,Planned,Rehab,Yes
+P0761,85,Male,Geriatrics,Stroke,8,2,2,Emergency,Rehab,Yes
+P0762,74,Female,Orthopedics,Fracture,9,1,0,Planned,Home,No
+P0763,36,Male,Neurology,Migraine,13,6,1,Planned,Home,Yes
+P0764,46,Male,Neurology,Migraine,8,3,3,Emergency,Rehab,No
+P0765,84,Female,Geriatrics,Stroke,9,1,2,Planned,Home,Yes
+P0766,59,Male,Geriatrics,Stroke,14,3,4,Emergency,Home,No
+P0767,75,Female,Geriatrics,Stroke,1,6,0,Planned,Rehab,No
+P0768,65,Female,Neurology,Stroke,1,8,2,Planned,Rehab,No
+P0769,39,Female,Neurology,Migraine,12,1,1,Planned,Home,No
+P0770,58,Female,Neurology,Stroke,5,5,0,Emergency,Rehab,No
+P0771,83,Male,Neurology,Migraine,14,10,2,Planned,Rehab,Yes
+P0772,73,Female,Cardiology,Heart Failure,14,9,0,Emergency,Rehab,No
+P0773,56,Female,Geriatrics,Dementia,1,9,0,Planned,Home,No
+P0774,40,Female,Geriatrics,Stroke,3,11,0,Emergency,Home,No
+P0775,58,Male,Neurology,Stroke,13,11,2,Planned,Rehab,No
+P0776,30,Male,Orthopedics,Fracture,13,1,3,Planned,Home,No
+P0777,38,Male,Cardiology,Hypertension,12,8,4,Emergency,Home,Yes
+P0778,31,Female,General Medicine,Infection,13,1,4,Planned,Rehab,No
+P0779,88,Male,Neurology,Migraine,8,9,2,Emergency,Home,Yes
+P0780,65,Male,Geriatrics,Dementia,7,7,0,Emergency,Home,Yes
+P0781,66,Male,Orthopedics,Fracture,4,2,1,Emergency,Home,No
+P0782,85,Male,Neurology,Stroke,4,1,3,Planned,Home,Yes
+P0783,38,Female,Orthopedics,Fracture,12,8,3,Planned,Rehab,No
+P0784,34,Female,Geriatrics,Dementia,9,7,1,Planned,Home,No
+P0785,82,Female,Cardiology,Hypertension,13,9,1,Planned,Home,Yes
+P0786,85,Female,Orthopedics,Fracture,3,11,4,Emergency,Home,Yes
+P0787,29,Male,Orthopedics,Fracture,14,2,2,Emergency,Rehab,Yes
+P0788,58,Male,Neurology,Stroke,12,3,3,Emergency,Home,No
+P0789,89,Male,Orthopedics,Fracture,11,5,1,Planned,Rehab,Yes
+P0790,57,Male,General Medicine,Diabetes,3,8,1,Emergency,Rehab,No
+P0791,60,Male,Geriatrics,Dementia,14,3,2,Planned,Home,Yes
+P0792,84,Male,Neurology,Migraine,7,10,4,Emergency,Rehab,Yes
+P0793,81,Female,Orthopedics,Fracture,1,9,0,Emergency,Rehab,No
+P0794,57,Female,Geriatrics,Dementia,12,5,2,Emergency,Home,No
+P0795,37,Female,Orthopedics,Fracture,4,3,4,Planned,Home,No
+P0796,72,Female,General Medicine,Infection,6,10,3,Planned,Rehab,Yes
+P0797,51,Male,Cardiology,Hypertension,3,3,3,Emergency,Rehab,No
+P0798,63,Male,General Medicine,Infection,9,7,2,Planned,Rehab,Yes
+P0799,67,Female,Orthopedics,Fracture,10,11,0,Emergency,Home,Yes
+P0800,52,Female,Cardiology,Heart Failure,8,7,1,Emergency,Home,No
+P0801,75,Male,Orthopedics,Fracture,12,5,3,Planned,Rehab,No
+P0802,56,Female,Cardiology,Hypertension,8,1,0,Planned,Rehab,No
+P0803,66,Female,Neurology,Migraine,4,3,4,Planned,Rehab,No
+P0804,79,Male,Geriatrics,Stroke,2,3,2,Emergency,Rehab,Yes
+P0805,30,Female,Neurology,Migraine,1,1,4,Emergency,Home,No
+P0806,27,Male,Orthopedics,Fracture,2,4,3,Planned,Rehab,No
+P0807,84,Female,Geriatrics,Dementia,4,1,4,Planned,Rehab,Yes
+P0808,69,Female,General Medicine,Infection,5,8,2,Planned,Rehab,Yes
+P0809,86,Male,Orthopedics,Fracture,11,4,1,Emergency,Home,No
+P0810,46,Female,Cardiology,Heart Failure,14,6,2,Emergency,Home,No
+P0811,83,Male,Geriatrics,Stroke,11,10,2,Emergency,Rehab,Yes
+P0812,69,Male,Orthopedics,Fracture,6,11,4,Emergency,Home,No
+P0813,34,Male,General Medicine,Infection,5,10,4,Emergency,Home,No
+P0814,56,Male,Cardiology,Hypertension,10,5,2,Emergency,Home,No
+P0815,25,Male,Neurology,Stroke,4,2,3,Emergency,Home,No
+P0816,48,Male,General Medicine,Diabetes,13,11,3,Planned,Home,No
+P0817,36,Male,Neurology,Migraine,13,6,3,Emergency,Home,Yes
+P0818,88,Female,General Medicine,Infection,5,9,0,Emergency,Home,Yes
+P0819,32,Female,Geriatrics,Stroke,2,6,4,Emergency,Home,No
+P0820,70,Male,Cardiology,Hypertension,3,10,1,Planned,Rehab,Yes
+P0821,51,Male,Cardiology,Heart Failure,13,3,1,Emergency,Home,No
+P0822,65,Male,Orthopedics,Fracture,12,5,3,Emergency,Home,No
+P0823,30,Female,General Medicine,Infection,7,4,2,Planned,Rehab,No
+P0824,20,Male,Geriatrics,Dementia,12,8,4,Emergency,Home,Yes
+P0825,32,Male,Orthopedics,Fracture,2,11,3,Planned,Home,Yes
+P0826,70,Male,Neurology,Stroke,13,1,2,Emergency,Home,Yes
+P0827,43,Female,Orthopedics,Fracture,10,3,4,Planned,Rehab,Yes
+P0828,27,Female,Orthopedics,Fracture,12,5,0,Planned,Rehab,Yes
+P0829,55,Female,General Medicine,Infection,6,3,2,Planned,Home,No
+P0830,30,Male,Geriatrics,Stroke,6,6,4,Emergency,Home,No
+P0831,30,Male,Orthopedics,Fracture,7,5,0,Emergency,Rehab,No
+P0832,75,Female,Neurology,Stroke,4,9,1,Planned,Rehab,No
+P0833,31,Male,Neurology,Stroke,6,1,2,Emergency,Rehab,No
+P0834,38,Male,Neurology,Migraine,10,4,1,Emergency,Home,No
+P0835,52,Female,Orthopedics,Fracture,14,8,2,Planned,Home,Yes
+P0836,83,Female,General Medicine,Infection,9,3,1,Emergency,Rehab,Yes
+P0837,70,Male,Neurology,Stroke,5,11,1,Emergency,Home,Yes
+P0838,70,Male,Cardiology,Heart Failure,4,7,4,Planned,Rehab,No
+P0839,54,Female,General Medicine,Infection,9,8,3,Planned,Rehab,Yes
+P0840,64,Male,Orthopedics,Fracture,1,1,0,Planned,Home,No
+P0841,38,Female,Cardiology,Heart Failure,6,3,2,Planned,Rehab,No
+P0842,88,Female,Geriatrics,Stroke,13,7,1,Planned,Home,Yes
+P0843,41,Female,Orthopedics,Fracture,13,6,2,Emergency,Rehab,Yes
+P0844,86,Male,Orthopedics,Fracture,6,10,1,Emergency,Rehab,Yes
+P0845,83,Female,Orthopedics,Fracture,14,5,3,Planned,Home,Yes
+P0846,85,Male,Cardiology,Heart Failure,9,8,2,Emergency,Home,Yes
+P0847,75,Male,General Medicine,Diabetes,14,9,2,Emergency,Rehab,Yes
+P0848,38,Male,Cardiology,Heart Failure,2,8,1,Emergency,Home,No
+P0849,49,Male,Geriatrics,Stroke,7,3,0,Planned,Rehab,No
+P0850,55,Female,Cardiology,Heart Failure,9,5,0,Emergency,Home,No
+P0851,34,Male,Orthopedics,Fracture,5,8,4,Emergency,Rehab,No
+P0852,79,Male,Cardiology,Hypertension,9,1,3,Emergency,Home,No
+P0853,54,Female,Geriatrics,Dementia,2,8,0,Planned,Rehab,No
+P0854,53,Female,Orthopedics,Fracture,14,4,2,Planned,Rehab,Yes
+P0855,22,Female,Orthopedics,Fracture,14,2,4,Planned,Home,No
+P0856,80,Male,Neurology,Stroke,3,11,1,Emergency,Home,No
+P0857,59,Male,Geriatrics,Dementia,1,7,1,Planned,Rehab,No
+P0858,35,Male,Orthopedics,Fracture,6,2,1,Emergency,Rehab,No
+P0859,32,Male,Geriatrics,Stroke,8,2,2,Planned,Home,No
+P0860,27,Female,Neurology,Stroke,7,8,2,Emergency,Home,No
+P0861,72,Female,Orthopedics,Fracture,7,1,0,Emergency,Rehab,No
+P0862,49,Male,Orthopedics,Fracture,5,5,2,Emergency,Rehab,No
+P0863,72,Female,Orthopedics,Fracture,3,9,0,Planned,Home,Yes
+P0864,50,Male,Cardiology,Heart Failure,1,7,1,Emergency,Rehab,No
+P0865,29,Female,General Medicine,Diabetes,4,8,3,Planned,Rehab,Yes
+P0866,39,Male,Cardiology,Hypertension,2,2,3,Emergency,Home,No
+P0867,72,Male,General Medicine,Diabetes,8,6,3,Planned,Home,Yes
+P0868,78,Male,Cardiology,Heart Failure,7,8,1,Emergency,Rehab,No
+P0869,31,Female,Cardiology,Heart Failure,7,2,1,Planned,Rehab,No
+P0870,68,Female,Orthopedics,Fracture,9,1,1,Planned,Rehab,Yes
+P0871,45,Female,Orthopedics,Fracture,2,6,0,Planned,Home,No
+P0872,69,Male,Geriatrics,Dementia,8,9,4,Planned,Rehab,Yes
+P0873,63,Male,Orthopedics,Fracture,9,11,0,Emergency,Rehab,Yes
+P0874,84,Female,General Medicine,Infection,11,3,0,Emergency,Home,No
+P0875,46,Female,Cardiology,Hypertension,2,4,3,Emergency,Home,No
+P0876,34,Female,Geriatrics,Dementia,3,3,0,Emergency,Home,No
+P0877,89,Male,Cardiology,Hypertension,8,3,4,Planned,Rehab,No
+P0878,36,Male,Orthopedics,Fracture,10,7,1,Planned,Rehab,No
+P0879,48,Male,Orthopedics,Fracture,1,11,0,Planned,Rehab,No
+P0880,74,Female,Geriatrics,Dementia,10,7,4,Planned,Home,Yes
+P0881,40,Male,Cardiology,Heart Failure,11,5,0,Emergency,Rehab,No
+P0882,43,Male,Cardiology,Heart Failure,12,11,0,Planned,Home,Yes
+P0883,87,Male,Orthopedics,Fracture,9,9,4,Planned,Home,Yes
+P0884,31,Female,Cardiology,Hypertension,5,10,0,Planned,Home,No
+P0885,67,Male,General Medicine,Diabetes,7,9,2,Planned,Rehab,Yes
+P0886,66,Female,Geriatrics,Stroke,2,3,3,Planned,Rehab,No
+P0887,32,Female,Neurology,Stroke,2,5,4,Planned,Rehab,No
+P0888,50,Male,Orthopedics,Fracture,2,9,0,Emergency,Rehab,No
+P0889,57,Male,Geriatrics,Dementia,11,6,0,Emergency,Home,Yes
+P0890,64,Female,Neurology,Stroke,13,2,0,Emergency,Rehab,No
+P0891,27,Female,General Medicine,Diabetes,7,4,1,Planned,Home,No
+P0892,22,Male,Geriatrics,Dementia,12,6,3,Planned,Home,Yes
+P0893,63,Female,Geriatrics,Dementia,5,8,0,Emergency,Home,No
+P0894,40,Male,Geriatrics,Stroke,12,11,2,Emergency,Rehab,No
+P0895,32,Female,Cardiology,Heart Failure,9,1,1,Planned,Home,No
+P0896,72,Male,Cardiology,Hypertension,12,5,1,Planned,Rehab,Yes
+P0897,65,Female,Neurology,Stroke,13,5,1,Emergency,Home,Yes
+P0898,33,Male,Cardiology,Hypertension,10,3,0,Planned,Home,No
+P0899,22,Female,Cardiology,Heart Failure,6,1,3,Emergency,Rehab,No
+P0900,73,Female,Geriatrics,Dementia,4,8,4,Emergency,Home,No
+P0901,62,Female,Geriatrics,Stroke,9,4,1,Planned,Rehab,No
+P0902,79,Male,Orthopedics,Fracture,10,6,0,Planned,Home,Yes
+P0903,47,Male,Cardiology,Hypertension,1,8,3,Planned,Rehab,No
+P0904,77,Male,Cardiology,Hypertension,12,11,4,Planned,Rehab,Yes
+P0905,61,Male,Geriatrics,Dementia,11,9,1,Emergency,Home,No
+P0906,56,Male,General Medicine,Diabetes,6,7,4,Planned,Rehab,No
+P0907,44,Male,Cardiology,Hypertension,1,7,1,Planned,Home,No
+P0908,26,Male,Cardiology,Heart Failure,4,9,3,Emergency,Home,No
+P0909,35,Female,General Medicine,Infection,11,5,3,Planned,Rehab,No
+P0910,26,Male,Geriatrics,Stroke,4,3,0,Emergency,Home,No
+P0911,51,Female,Cardiology,Hypertension,11,8,0,Planned,Rehab,Yes
+P0912,64,Male,General Medicine,Infection,6,11,3,Emergency,Rehab,Yes
+P0913,86,Female,Orthopedics,Fracture,13,9,4,Emergency,Rehab,No
+P0914,47,Female,Orthopedics,Fracture,13,7,3,Planned,Home,No
+P0915,23,Female,Neurology,Migraine,10,8,0,Emergency,Home,No
+P0916,24,Male,Cardiology,Heart Failure,8,4,1,Emergency,Home,No
+P0917,34,Male,Orthopedics,Fracture,12,6,0,Planned,Home,No
+P0918,36,Female,General Medicine,Infection,11,10,3,Emergency,Rehab,Yes
+P0919,76,Male,Cardiology,Hypertension,10,9,1,Planned,Home,No
+P0920,64,Female,Geriatrics,Dementia,3,11,4,Planned,Rehab,No
+P0921,72,Female,Orthopedics,Fracture,8,8,3,Planned,Rehab,Yes
+P0922,47,Female,Cardiology,Heart Failure,11,11,0,Planned,Home,No
+P0923,68,Female,General Medicine,Diabetes,4,6,3,Emergency,Home,No
+P0924,76,Female,Geriatrics,Dementia,9,2,1,Planned,Home,Yes
+P0925,24,Female,Geriatrics,Dementia,4,4,0,Planned,Home,No
+P0926,73,Female,General Medicine,Infection,1,2,2,Planned,Home,No
+P0927,34,Female,Neurology,Stroke,13,10,4,Emergency,Rehab,Yes
+P0928,65,Male,Orthopedics,Fracture,5,6,1,Emergency,Home,No
+P0929,65,Female,Neurology,Stroke,13,3,4,Emergency,Rehab,Yes
+P0930,27,Female,Geriatrics,Stroke,12,11,3,Planned,Rehab,Yes
+P0931,52,Female,Cardiology,Heart Failure,1,11,4,Emergency,Rehab,Yes
+P0932,69,Female,Geriatrics,Stroke,11,6,0,Emergency,Rehab,No
+P0933,35,Female,General Medicine,Infection,4,3,3,Emergency,Home,No
+P0934,67,Male,Cardiology,Hypertension,8,11,1,Emergency,Rehab,Yes
+P0935,81,Female,General Medicine,Diabetes,9,11,4,Emergency,Rehab,Yes
+P0936,37,Male,Orthopedics,Fracture,3,7,1,Emergency,Home,No
+P0937,45,Male,Geriatrics,Stroke,6,4,3,Planned,Rehab,No
+P0938,48,Male,Cardiology,Hypertension,11,2,0,Planned,Home,No
+P0939,62,Male,Neurology,Stroke,5,2,1,Emergency,Home,No
+P0940,27,Male,Neurology,Stroke,13,10,3,Planned,Rehab,Yes
+P0941,84,Female,Cardiology,Hypertension,11,7,0,Emergency,Home,Yes
+P0942,78,Female,Cardiology,Hypertension,4,8,1,Emergency,Rehab,Yes
+P0943,63,Female,Geriatrics,Stroke,9,5,1,Emergency,Rehab,Yes
+P0944,55,Male,Geriatrics,Stroke,5,10,2,Emergency,Rehab,No
+P0945,61,Female,Cardiology,Heart Failure,12,8,1,Planned,Rehab,Yes
+P0946,74,Male,Orthopedics,Fracture,8,11,4,Emergency,Rehab,Yes
+P0947,46,Male,Geriatrics,Dementia,9,3,3,Emergency,Home,Yes
+P0948,32,Female,Neurology,Stroke,13,10,3,Planned,Rehab,No
+P0949,28,Female,Cardiology,Hypertension,6,8,2,Emergency,Rehab,No
+P0950,53,Female,General Medicine,Infection,3,1,0,Emergency,Rehab,No
+P0951,86,Male,Orthopedics,Fracture,4,4,4,Emergency,Rehab,No
+P0952,54,Male,Geriatrics,Stroke,3,1,2,Emergency,Rehab,No
+P0953,36,Female,Neurology,Migraine,2,4,4,Planned,Rehab,No
+P0954,72,Male,Cardiology,Heart Failure,11,2,3,Planned,Home,Yes
+P0955,84,Female,Neurology,Stroke,2,1,1,Planned,Home,No
+P0956,45,Male,Geriatrics,Stroke,13,4,3,Planned,Rehab,No
+P0957,29,Female,Orthopedics,Fracture,11,11,0,Emergency,Rehab,No
+P0958,24,Female,General Medicine,Diabetes,10,1,0,Planned,Rehab,No
+P0959,41,Male,Geriatrics,Dementia,2,8,4,Planned,Home,No
+P0960,60,Female,Orthopedics,Fracture,13,4,4,Planned,Home,No
+P0961,30,Female,Orthopedics,Fracture,8,3,4,Planned,Rehab,No
+P0962,45,Female,General Medicine,Infection,3,3,4,Planned,Rehab,No
+P0963,79,Male,Neurology,Migraine,7,7,1,Planned,Rehab,No
+P0964,59,Female,Geriatrics,Stroke,5,5,3,Emergency,Rehab,No
+P0965,42,Male,Orthopedics,Fracture,10,4,1,Emergency,Rehab,Yes
+P0966,27,Female,Geriatrics,Dementia,9,3,3,Planned,Rehab,No
+P0967,87,Female,General Medicine,Diabetes,10,3,4,Emergency,Home,No
+P0968,20,Female,Neurology,Migraine,3,8,2,Emergency,Home,No
+P0969,59,Male,Geriatrics,Stroke,13,4,1,Emergency,Home,No
+P0970,43,Female,Geriatrics,Dementia,8,10,3,Emergency,Home,No
+P0971,86,Female,Cardiology,Hypertension,2,9,0,Emergency,Rehab,No
+P0972,72,Male,Geriatrics,Dementia,8,4,4,Planned,Rehab,Yes
+P0973,88,Female,Geriatrics,Stroke,14,5,0,Emergency,Rehab,Yes
+P0974,76,Male,Neurology,Stroke,13,9,3,Emergency,Rehab,Yes
+P0975,73,Female,Cardiology,Heart Failure,6,5,0,Planned,Rehab,Yes
+P0976,29,Male,Orthopedics,Fracture,8,7,4,Emergency,Home,No
+P0977,80,Female,Cardiology,Heart Failure,4,3,2,Emergency,Home,No
+P0978,66,Female,Cardiology,Heart Failure,4,6,2,Planned,Home,No
+P0979,55,Female,Neurology,Migraine,9,5,4,Emergency,Home,No
+P0980,77,Female,General Medicine,Diabetes,2,5,0,Emergency,Home,No
+P0981,46,Male,Geriatrics,Stroke,3,9,2,Planned,Rehab,No
+P0982,66,Female,General Medicine,Diabetes,6,4,4,Planned,Rehab,No
+P0983,73,Male,Orthopedics,Fracture,5,8,0,Emergency,Rehab,No
+P0984,35,Female,Cardiology,Hypertension,11,7,1,Emergency,Rehab,No
+P0985,51,Male,Orthopedics,Fracture,11,2,0,Emergency,Rehab,No
+P0986,30,Female,Neurology,Stroke,10,6,0,Emergency,Rehab,No
+P0987,36,Male,General Medicine,Diabetes,4,4,0,Planned,Home,No
+P0988,40,Male,General Medicine,Infection,5,6,0,Emergency,Home,No
+P0989,84,Male,Geriatrics,Stroke,9,3,3,Emergency,Rehab,Yes
+P0990,85,Female,General Medicine,Diabetes,8,7,2,Planned,Rehab,Yes
+P0991,89,Female,Neurology,Migraine,1,7,1,Emergency,Rehab,No
+P0992,58,Female,Neurology,Stroke,13,9,0,Planned,Home,No
+P0993,53,Female,Geriatrics,Dementia,11,9,4,Emergency,Rehab,Yes
+P0994,32,Male,Geriatrics,Stroke,6,6,3,Planned,Rehab,No
+P0995,71,Male,Neurology,Stroke,5,3,0,Planned,Home,No
+P0996,82,Female,Cardiology,Heart Failure,1,7,0,Planned,Home,No
+P0997,86,Male,Orthopedics,Fracture,10,4,3,Planned,Rehab,No
+P0998,37,Female,Orthopedics,Fracture,1,3,2,Planned,Home,No
+P0999,54,Male,Neurology,Stroke,8,10,0,Emergency,Rehab,Yes
+P1000,33,Female,Geriatrics,Stroke,2,7,3,Emergency,Home,No
