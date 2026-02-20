@@ -1,0 +1,66 @@
+name: Healthcare Analytics CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  analytics-checks:
+    runs-on: ubuntu-latest
+
+    steps:
+    # 1️⃣ Checkout repository
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    # 2️⃣ Setup Python
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.10'
+
+    # 3️⃣ Install Python dependencies
+    - name: Install Python dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install pandas numpy flake8 nbconvert jupyter
+
+    # 4️⃣ Run Python scripts (.py files)
+    - name: Run Python scripts
+      run: |
+        if [ -d "python" ]; then
+          for file in python/*.py; do
+            echo "Running $file"
+            python "$file"
+          done
+        fi
+
+    # 5️⃣ Execute Jupyter notebooks (.ipynb)
+    - name: Execute Jupyter notebooks
+      run: |
+        if [ -d "python" ]; then
+          jupyter nbconvert \
+            --to notebook \
+            --execute python/*.ipynb \
+            --allow-errors
+        fi
+
+    # 6️⃣ Lint Python code
+    - name: Lint Python code
+      run: |
+        if [ -d "python" ]; then
+          flake8 python || true
+        fi
+
+    # 7️⃣ Validate SQL files exist
+    - name: Validate SQL files
+      run: |
+        test -d sql
+        ls sql/*.sql
+
+    # 8️⃣ Check README exists
+    - name: Check README
+      run: |
+        test -f README.md
