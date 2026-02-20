@@ -35,7 +35,10 @@ jobs:
             echo "Running $file"
             python "$file"
           done
+        else
+          echo "No Python .py files found, skipping script execution"
         fi
+        
 
     # 5️⃣ Execute Jupyter notebooks (.ipynb)
     - name: Execute Jupyter notebooks
@@ -45,6 +48,8 @@ jobs:
             --to notebook \
             --execute python/*.ipynb \
             --allow-errors
+         else
+          echo "No notebooks found, skipping notebook execution"
         fi
 
     # 6️⃣ Lint Python code
