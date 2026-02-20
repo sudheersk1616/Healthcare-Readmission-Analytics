@@ -27,19 +27,6 @@ jobs:
         python -m pip install --upgrade pip
         pip install pandas numpy flake8 nbconvert jupyter
 
-    # 4️⃣ Run Python scripts (.py files)
-    - name: Run Python scripts
-      run: |
-        if [ -d "python" ]; then
-          for file in python/*.py; do
-            echo "Running $file"
-            python "$file"
-          done
-        else
-          echo "No Python .py files found, skipping script execution"
-        fi
-        
-
     # 5️⃣ Execute Jupyter notebooks (.ipynb)
     - name: Execute Jupyter notebooks
       run: |
@@ -50,6 +37,21 @@ jobs:
             --allow-errors
          else
           echo "No notebooks found, skipping notebook execution"
+        fi
+        # 5️⃣ Execute Jupyter notebooks safely
+    - name: Execute Jupyter notebooks
+      shell: bash
+      run: |
+        shopt -s nullglob
+        notebooks=(python/*.ipynb)
+
+        if [ ${#notebooks[@]} -eq 0 ]; then
+          echo "No notebooks found, skipping"
+        else
+          jupyter nbconvert \
+            --to notebook \
+            --execute "${notebooks[@]}" \
+            --allow-errors
         fi
 
     # 6️⃣ Lint Python code
