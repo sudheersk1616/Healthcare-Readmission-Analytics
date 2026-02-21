@@ -1,4 +1,4 @@
-
+SELECT * FROM stg_hospital_readmission LIMIT 10;
 SELECT
     s.patient_id,
     d.department_id,
