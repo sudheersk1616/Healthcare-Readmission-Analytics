@@ -15,7 +15,6 @@ CREATE TABLE stg_hospital_readmission (
     discharge_disposition VARCHAR(20),
     readmitted VARCHAR(5)
 );
-
 SELECT * FROM stg_hospital_readmission LIMIT 10;
 
 
