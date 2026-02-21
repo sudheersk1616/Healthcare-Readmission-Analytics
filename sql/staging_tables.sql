@@ -1,4 +1,4 @@
-CREATE DATABASE healthcare_dw;
+CREATE DATABASE IF NOT EXISTS healthcare_dw;
 USE healthcare_dw;
 
 CREATE TABLE stg_hospital_readmission (
@@ -15,7 +15,7 @@ CREATE TABLE stg_hospital_readmission (
     discharge_disposition VARCHAR(20),
     readmitted VARCHAR(5)
 );
-select * from stg_hospital_readmission;
+
 SELECT * FROM stg_hospital_readmission LIMIT 10;
 
 
