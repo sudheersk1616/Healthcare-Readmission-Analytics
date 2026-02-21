@@ -53,10 +53,10 @@ jobs:
               discharge_disposition VARCHAR(20),
               readmitted VARCHAR(5)
               );
-              EOF
+          'EOF'
        
-            mysql -h 127.0.0.1 -uroot -proot healthcare_dw < sql/dimension_tables.sql
-            mysql -h 127.0.0.1 -uroot -proot healthcare_dw < sql/fact_tables.sql
+          mysql -h 127.0.0.1 -uroot -proot healthcare_dw < sql/dimension_tables.sql
+          mysql -h 127.0.0.1 -uroot -proot healthcare_dw < sql/fact_tables.sql
 
     - name: Execute analysis queries
       run: |
