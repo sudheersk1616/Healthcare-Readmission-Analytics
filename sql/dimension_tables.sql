@@ -21,7 +21,7 @@ CREATE TABLE dim_admission (
     discharge_disposition VARCHAR(20)
 );
 
-INSERT INTO dim_patient
+INSERT INTO dim_patient (patient_id, age, age_group, gender)
 SELECT DISTINCT patient_id, age, age_group, gender
 FROM stg_hospital_readmission;
 select * from dim_patient;
