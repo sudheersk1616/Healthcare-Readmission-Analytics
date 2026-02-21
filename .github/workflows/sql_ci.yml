@@ -1,0 +1,54 @@
+name: SQL Validation CI
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - "sql/**"
+  pull_request:
+    branches: [ main ]
+    paths:
+      - "sql/**"
+  workflow_dispatch:
+
+jobs:
+  sql-checks:
+    runs-on: ubuntu-latest
+
+    steps:
+    # 1️⃣ Checkout repo
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    # 2️⃣ List SQL files (debug visibility)
+    - name: List SQL files
+      run: |
+        echo "SQL files found:"
+        ls -l sql/
+
+    # 3️⃣ Basic SQL sanity check (non-empty)
+    - name: Validate SQL files are not empty
+      run: |
+        for file in sql/*.sql; do
+          if [ ! -s "$file" ]; then
+            echo "❌ $file is empty"
+            exit 1
+          fi
+        done
+
+    # 4️⃣ SQL keyword validation (lightweight)
+    - name: Validate SQL syntax keywords
+      run: |
+        for file in sql/*.sql; do
+          echo "Checking $file"
+          grep -Ei "select|create|insert|update|delete|with" "$file" > /dev/null || {
+            echo "❌ No valid SQL keywords found in $file"
+            exit 1
+          }
+        done
+
+    # 5️⃣ SQL formatting check (optional, non-blocking)
+    - name: SQL formatting check (optional)
+      run: |
+        pip install sqlfluff
+        sqlfluff lint sql/ || true

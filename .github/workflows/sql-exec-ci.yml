@@ -1,0 +1,49 @@
+name: SQL Execution CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:
+jobs:
+  sql-execution:
+    runs-on: ubuntu-latest
+
+    services:
+      mysql:
+        image: mysql:8.0
+        env:
+          MYSQL_ROOT_PASSWORD: root
+          MYSQL_DATABASE: healthcare_dw
+        ports:
+          - 3306:3306
+        options: >-
+          --health-cmd="mysqladmin ping -h localhost"
+          --health-interval=10s
+          --health-timeout=5s
+          --health-retries=5
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Install MySQL client
+      run: sudo apt-get install -y mysql-client
+
+    - name: Wait for MySQL
+      run: |
+        until mysqladmin ping -h 127.0.0.1 -proot --silent; do
+          echo "Waiting for MySQL..."
+          sleep 5
+        done
+
+    - name: Execute schema SQL
+      run: |
+        mysql -h 127.0.0.1 -uroot -proot healthcare_dw < sql/staging_tables.sql
+        mysql -h 127.0.0.1 -uroot -proot healthcare_dw < sql/dimension_tables.sql
+        mysql -h 127.0.0.1 -uroot -proot healthcare_dw < sql/fact_tables.sql
+
+    - name: Execute analysis queries
+      run: |
+        mysql -h 127.0.0.1 -uroot -proot healthcare_dw < sql/analysis_queries.sql
