@@ -36,7 +36,6 @@ jobs:
 
     - name: Execute schema SQL
       run: |
-        mysql -h 127.0.0.1 -uroot -proot healthcare_dw < sql/staging_tables.sql
         mysql -h 127.0.0.1 -uroot -proot healthcare_dw < sql/dimension_tables.sql
         mysql -h 127.0.0.1 -uroot -proot healthcare_dw < sql/fact_tables.sql
 
