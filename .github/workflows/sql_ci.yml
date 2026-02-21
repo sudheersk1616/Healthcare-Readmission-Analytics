@@ -1,14 +1,6 @@
 name: SQL Validation CI
 
 on:
-  push:
-    branches: [ main ]
-    paths:
-      - "sql/**"
-  pull_request:
-    branches: [ main ]
-    paths:
-      - "sql/**"
   workflow_dispatch:
 
 jobs:
