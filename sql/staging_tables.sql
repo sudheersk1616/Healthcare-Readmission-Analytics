@@ -1,4 +1,3 @@
-CREATE DATABASE IF NOT EXISTS healthcare_dw;
 USE healthcare_dw;
 
 CREATE TABLE stg_hospital_readmission (
